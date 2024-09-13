@@ -1,1 +1,1 @@
-Sitemap: https://michelmannlab.github.io/michelmannlab/sitemap.xml
+Sitemap: https://michelmannlab.github.io/sitemap.xml
