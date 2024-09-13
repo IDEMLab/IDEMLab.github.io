@@ -14,64 +14,64 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="michelmannlab@nyu.edu"
+  link="michelmannlab@nyu.edu"
 %}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
+#{%
+#  include button.html
+#  type="phone"
+#  text="(555) 867-5309"
+#  link="+1-555-867-5309"
+#%}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="[https://www.google.com/maps](https://www.google.com/maps?sca_esv=ce726b12b82d8816&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIgY2IHdhc2gqAggAMg4QLhiABBjHARiOBRivATILEAAYgAQYkQIYigUyBRAAGIAEMgsQABiABBiRAhiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIdEC4YgAQYxwEYjgUYrwEYlwUY3AQY3gQY4ATYAQFIwRdQ5ghYnw1wA3gAkAEAmAG2AaABugWqAQM1LjK4AQHIAQD4AQGYAgmgAqwFwgIKEAAYsAMY1gQYR8ICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAggQABiABBiLA8ICCxAAGIAEGLEDGIsDwgIaEC4YgAQYsQMY0QMY0gMYgwEYxwEYqAMYiwPCAhMQLhiABBhDGMcBGIoFGI4FGK8BwgILEC4YgAQYxwEYrwHCAg4QABiABBixAxiDARiLA5gDAIgGAZAGCLoGBggBEAEYFJIHAzcuMqAH4Tg&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KbV48oSaWcKJMQUpw0xI4GCA&daddr=6+Washington+Pl,+New+York,+NY+10003)"
 %}
 
-{% include section.html %}
+#{% include section.html %}
 
-{% capture col1 %}
+#{% capture col1 %}
 
-{%
+#{%
   include figure.html
   image="images/photo.jpg"
   caption="Lorem ipsum"
-%}
+#%}
 
-{% endcapture %}
+#{% endcapture %}
 
-{% capture col2 %}
+#{% capture col2 %}
 
-{%
+#{%
   include figure.html
   image="images/photo.jpg"
   caption="Lorem ipsum"
-%}
+#%}
 
-{% endcapture %}
+#{% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 %}
+#{% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html dark=true %}
+#{% include section.html dark=true %}
 
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
+#{% capture col1 %}
+#Lorem ipsum dolor sit amet  
+#consectetur adipiscing elit  
+#sed do eiusmod tempor
+#{% endcapture %}
 
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
+#{% capture col2 %}
+#Lorem ipsum dolor sit amet  
+#consectetur adipiscing elit  
+#sed do eiusmod tempor
+#{% endcapture %}
 
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
+#{% capture col3 %}
+#Lorem ipsum dolor sit amet  
+#consectetur adipiscing elit  
+#sed do eiusmod tempor
+#{% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+#{% include cols.html col1=col1 col2=col2 col3=col3 %}
