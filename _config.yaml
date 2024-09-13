@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: The Interactive Dynamics of Episodic Memory Lab
-subtitle: Welcome to the IDEM Lab
-description: 
+subtitle: 
+description: Welcome to the IDEM Lab
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
