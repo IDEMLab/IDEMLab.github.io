@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: michelmannlabDESCRIPTION=An engaging 1-3 sentence description of your lab.
+title: The Interactive Dynamics of Episodic Memory Lab
 subtitle: 
 description: 
 header: images/background.jpg
@@ -8,7 +8,7 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@michelmannlabDESCRIPTION=An engaging 1-3 sentence description of your lab..com
+  email: michelmannlab@nyu.edu
   orcid: 0000-0001-8713-9213
   google-scholar: ETJoidYAAAAJ
   github: michelmannlabDESCRIPTION=An engaging 1-3 sentence description of your lab.
