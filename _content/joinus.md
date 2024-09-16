@@ -1,6 +1,6 @@
 ---
 name: Join the lab!
-
+  image: images/logo.png
 links:
   email: michelmannlab@nyu.edu
   
