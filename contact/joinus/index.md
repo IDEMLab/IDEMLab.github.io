@@ -1,5 +1,5 @@
 ---
-title: Join us!
+title: Get involved
 nav:
   order: 3
   tooltip: About our team
@@ -11,8 +11,8 @@ nav:
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+{% include list.html data="content" component="portrait" filters="role: pi" %}
+
 
 {% include section.html background="images/background.jpg" dark=true %}
 
