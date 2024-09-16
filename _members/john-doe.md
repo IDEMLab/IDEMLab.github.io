@@ -1,6 +1,6 @@
 ---
 name: Olivia Christiano
-image: images/olivia-christiano.jpg
+image: images/olivia-christiano.png
 role: labmanager
 group: alum
 links:
