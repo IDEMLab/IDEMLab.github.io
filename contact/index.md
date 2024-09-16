@@ -14,7 +14,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="michelmannlab@nyu.edu"
+  text="Email"
   link="michelmannlab@nyu.edu"
 %}
 <!-- {%
