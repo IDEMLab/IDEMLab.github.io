@@ -1,7 +1,7 @@
 ---
 ---
 
-# michelmannlabDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab in New York University's Department of Psychology. Our lab, led by Sebastian Michelmann, explores the complexities of episodic memory through cognitive and computational neuroscience. 
 
 
 
