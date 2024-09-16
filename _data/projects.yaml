@@ -2,14 +2,13 @@
   group: featured
   image: images/meg.jpg
   description: We use MEG, which offers exceptional temporal and strong spatial resolution, to investigate how the brain encodes and retrieves memories in real time
-  repo: greenelab/lab-website-template
 
 
 - title: 
   group: featured
   image: images/eeg.jpg
   description: We use EEG, which provides excellent temporal resolution, to examine the brain’s rapid electrical activity as it encodes and retrieves memories, helping us understand the precise timing of neural processes involved in episodic memory.
-  repo: greenelab/lab-website-template
+
 
   
 
