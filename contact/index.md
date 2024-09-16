@@ -38,8 +38,7 @@ We are always excited to hear from individuals interested in joining our lab. Pl
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/participate.jpg"
 %}
 
 {% endcapture %}
@@ -48,8 +47,7 @@ We are always excited to hear from individuals interested in joining our lab. Pl
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/join.jpg"
 %}
 
 {% endcapture %}
