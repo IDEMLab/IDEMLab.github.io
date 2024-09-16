@@ -11,6 +11,7 @@ links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=ZKnNXjYAAAAJ&view_op=list_works&sortby=pubdate&inst=10749622055976013885
   twitter: https://twitter.com/s_michelmann
   github: https://github.com/s-michelmann
+  cv: https://github.com/IDEMLab/IDEMLab.github.io/blob/main/cvs/michelmann-CV.pdf
 ---
 
 In my research, I ask how the continuous, temporally dynamic content that we encounter in the world is neurally represented, and what mechanisms and computational principles support its encoding and retrieval. For example, when humming a melody that we only heard once, our brain reproduces patterns from memory with high temporal accuracy that consequently need to be neurally represented. On the other hand, when remembering where we placed our keys, we can quickly sift through long memories that may be full of irrelevant information, i.e., memory search is much faster than the original experience. How can we reconcile such fast memory scanning with temporally accurate representations?
