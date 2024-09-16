@@ -5,7 +5,7 @@ nav:
   tooltip: Email, address, and location
 ---
 
-{% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -27,7 +27,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="[https://www.google.com/maps](https://www.google.com/maps?sca_esv=ce726b12b82d8816&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIgY2IHdhc2gqAggAMg4QLhiABBjHARiOBRivATILEAAYgAQYkQIYigUyBRAAGIAEMgsQABiABBiRAhiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIdEC4YgAQYxwEYjgUYrwEYlwUY3AQY3gQY4ATYAQFIwRdQ5ghYnw1wA3gAkAEAmAG2AaABugWqAQM1LjK4AQHIAQD4AQGYAgmgAqwFwgIKEAAYsAMY1gQYR8ICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAggQABiABBiLA8ICCxAAGIAEGLEDGIsDwgIaEC4YgAQYsQMY0QMY0gMYgwEYxwEYqAMYiwPCAhMQLhiABBhDGMcBGIoFGI4FGK8BwgILEC4YgAQYxwEYrwHCAg4QABiABBixAxiDARiLA5gDAIgGAZAGCLoGBggBEAEYFJIHAzcuMqAH4Tg&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KbV48oSaWcKJMQUpw0xI4GCA&daddr=6+Washington+Pl,+New+York,+NY+10003)"
+  link="https://www.google.com/maps?sca_esv=ce726b12b82d8816&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIgY2IHdhc2gqAggAMg4QLhiABBjHARiOBRivATILEAAYgAQYkQIYigUyBRAAGIAEMgsQABiABBiRAhiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIdEC4YgAQYxwEYjgUYrwEYlwUY3AQY3gQY4ATYAQFIwRdQ5ghYnw1wA3gAkAEAmAG2AaABugWqAQM1LjK4AQHIAQD4AQGYAgmgAqwFwgIKEAAYsAMY1gQYR8ICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAggQABiABBiLA8ICCxAAGIAEGLEDGIsDwgIaEC4YgAQYsQMY0QMY0gMYgwEYxwEYqAMYiwPCAhMQLhiABBhDGMcBGIoFGI4FGK8BwgILEC4YgAQYxwEYrwHCAg4QABiABBixAxiDARiLA5gDAIgGAZAGCLoGBggBEAEYFJIHAzcuMqAH4Tg&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KbV48oSaWcKJMQUpw0xI4GCA&daddr=6+Washington+Pl,+New+York,+NY+10003"
 %}
 
 <!-- {% include section.html %}
