@@ -1,6 +1,6 @@
 ---
 name: Sebastian Michelmann, Ph.D.
-image: images/sebastian-michelmann.jpg
+image: images/sebastian-michelmann.png
 role: pi
 affiliation: New York University
 aliases:
