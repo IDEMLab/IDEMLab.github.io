@@ -1,21 +1,17 @@
 - title: MEG
-  subtitle: a subtitle
   group: featured
   image: images/meg.jpg
   description: We use MEG, which offers exceptional temporal and strong spatial resolution, to investigate how the brain encodes and retrieves memories in real time
   repo: greenelab/lab-website-template
-  tags:
 
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: EEG
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  image: images/eeg.jpg
+  description: We use EEG, which provides excellent temporal resolution, to examine the brain’s rapid electrical activity as it encodes and retrieves memories, helping us understand the precise timing of neural processes involved in episodic memory.
   repo: greenelab/lab-website-template
-  tags:
-    - resource
+
+  
 
 - title: Cool Tutorial
   subtitle: a subtitle
