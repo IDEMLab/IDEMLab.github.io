@@ -75,7 +75,7 @@ cv:
   icon: fa-sharp fa-solid fa-file
   text: CV
   tooltip: CV
-  link: https://github.com/IDEMLab/IDEMLab.github.io/blob/main/cvs/$VALUE
+  link: cvs/$VALUE
   
 orcid:
   icon: fa-brands fa-orcid
