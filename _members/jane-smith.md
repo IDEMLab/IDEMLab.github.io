@@ -1,8 +1,8 @@
 ---
-name: Jane Smith
+name: Sebastian Michelmann, Ph.D.
 image: images/photo.jpg
 role: pi
-affiliation: University of Colorado
+affiliation: New York University
 aliases:
   - J. Smith
   - J Smith
