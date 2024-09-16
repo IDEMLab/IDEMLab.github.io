@@ -56,22 +56,10 @@ We are always excited to hear from individuals interested in joining our lab. Pl
 
 {% include section.html dark=true %}
 
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
 
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
+{% include section.html %}
 
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
+{% include list.html data="content" component="portrait" 
 
-{% include cols.html col1=col1 col2=col2 col3=col3 %} 
+{% include section.html background="images/background.jpg" dark=true %}
+
