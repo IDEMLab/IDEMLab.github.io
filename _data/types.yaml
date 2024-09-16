@@ -126,7 +126,7 @@ linkedin:
   link: https://www.linkedin.com/in/$VALUE
 
 mastodon:
-  icon: fa-brands fa-mastadon
+  icon: fa-brands fa-mastodon
   text: Mastodon
   tooltip: Mastodon
   link: https://indieweb.social/$VALUE
