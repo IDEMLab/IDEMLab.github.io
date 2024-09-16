@@ -2,7 +2,7 @@
 name: Sebastian Michelmann
 image: images/sebastian-michelmann.png
 role: pi
-affiliation: New York University
+affiliation: 
 aliases:
   - S. Michelmann
   - S Michelmann
