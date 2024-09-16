@@ -7,7 +7,7 @@ aliases:
   - S. Michelmann
   - S Michelmann
 links:
-  home-page: https://janesmith.com
+  googlescholar: https://scholar.google.com/citations?hl=en&user=ZKnNXjYAAAAJ&view_op=list_works&sortby=pubdate&inst=10749622055976013885
   orcid: 0000-0001-8713-9213
   twitter: https://twitter.com/s_michelmann
 ---
