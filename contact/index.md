@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Get Involved
 nav:
   order: 5
   tooltip: Email, address, and location
