@@ -7,21 +7,20 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-brain" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our lab investigates how general knowledge representations and unique memories interact on a fast timescale. We use electrophysiology (EEG, MEG, and intracranial EEG) combined with computational modeling and behavioral experiments to understand the neurophysiological mechanisms and the computational principles underlying such interactive dynamics of episodic memory.
 
-{% include tags.html tags="publication, resource, website" %}
+<!-- {% include tags.html tags="publication, resource, website" %} -->
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Featured
+## Methods
 
 {% include list.html component="card" data="projects" filters="group: featured" %}
 
 {% include section.html %}
 
-## More
+<!-- ## More
 
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
+{% include list.html component="card" data="projects" filters="group: " style="small" %} -->
