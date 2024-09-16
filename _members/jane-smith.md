@@ -9,7 +9,7 @@ aliases:
 links:
   email: s.michelmann@nyu.edu
   google-scholar: https://scholar.google.com/citations?hl=en&user=ZKnNXjYAAAAJ&view_op=list_works&sortby=pubdate&inst=10749622055976013885
-  twitter: https://twitter.com/s_michelmann
+  twitter: https://x.com/s_michelmann
   github: https://github.com/s-michelmann
   cv: https://github.com/IDEMLab/IDEMLab.github.io/blob/main/cvs/michelmann-CV.pdf
 ---
