@@ -3,7 +3,6 @@
 # team member roles
 
 pi:
-  icon: fa-solid fa-microscope
   description: Principal Investigator
 
 postdoc:
@@ -11,7 +10,6 @@ postdoc:
   description: Postdoctoral Researcher
 
 phd:
-  icon: fa-solid fa-graduation-cap
   description: PhD Student
 
 undergrad:
@@ -25,6 +23,9 @@ programmer:
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
+
+labmanager:
+  description: Lab Manager
 
 # general
 
