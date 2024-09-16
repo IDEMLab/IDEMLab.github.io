@@ -52,14 +52,4 @@ We are always excited to hear from individuals interested in joining our lab. Pl
 
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-
-{% include section.html %}
-
-{% include list.html data="content" component="portrait" 
-
-{% include section.html background="images/background.jpg" dark=true %}
 
