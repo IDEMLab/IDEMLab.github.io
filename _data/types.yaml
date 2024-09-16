@@ -71,7 +71,12 @@ search:
   tooltip: Search
 
 # social media
-
+cv: 
+  icon: fa-sharp fa-solid fa-file
+  text: CV
+  tooltip: CV
+  link: github.com/IDEMLab/IDEMLab.github.io/
+  
 orcid:
   icon: fa-brands fa-orcid
   text: ORCID
