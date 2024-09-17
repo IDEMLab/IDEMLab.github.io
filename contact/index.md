@@ -39,21 +39,4 @@ We are always excited to hear from individuals interested in joining our lab. Pl
 
 {% include list.html component="card" data="studies" %}
 
-{% for item in site.data.studies %}
-<figure class="figure">
-  <a href="{{ item.link | relative_url }}" class="figure-image" aria-label="{{ item.title | default: "figure link" }}">
-    <img
-      src="{{ item.image | relative_url }}"
-      style="width: auto; max-height: unset;"
-      alt="{{ item.title | default: "figure image" }}"
-      loading="lazy"
-    >
-  </a>
-  {% if item.title %}
-    <figcaption class="figure-caption">
-      {{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}
-    </figcaption>
-  {% endif %}
-</figure>
-{% endfor %}
 
