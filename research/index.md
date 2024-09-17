@@ -9,6 +9,7 @@ nav:
 
 Coming soon...
 
+{% comment %}
 <!-- {% include section.html %}
 
 ## Highlighted
@@ -24,3 +25,4 @@ Coming soon...
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %} -->
+{% endcomment %}
