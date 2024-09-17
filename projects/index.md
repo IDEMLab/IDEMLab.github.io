@@ -17,7 +17,7 @@ Our lab investigates how general knowledge representations and unique memories i
 
 ## Methods
 
-{% include list.html component="card" data="projects" filters="group: featured" %}
+{% include list.html component="card" data="projects" %}
 
 {% include section.html %}
 
