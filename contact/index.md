@@ -52,4 +52,9 @@ We are always excited to hear from individuals interested in joining our lab. Pl
 
 {% endcapture %}
 
+## Participate in one of our studies
+
+{% include list.html component="card" data="studies" %}
+
+{% include section.html %}
 
