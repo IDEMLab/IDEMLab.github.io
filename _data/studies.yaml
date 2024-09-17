@@ -1,15 +1,15 @@
 - title: 
   group: featured
   image: images/eeg_flyer.jpg
-  link: [Sign up here] (tinyurl.com/eeg24ml)
+  link: tinyurl.com/eeg24ml
 
 - title: 
   group: featured
   image: images/eeg_mri_flyer.jpg
-  link: [Sign up here] (tinyurl.com/MLeeg224)
+  link: tinyurl.com/MLeeg224
   
 - title: 
   group: featured
   image: images/meg_flyer.jpg
-  link: [Sign up here] (tinyurl.com/meg24ml)
+  link: tinyurl.com/meg24ml
   
