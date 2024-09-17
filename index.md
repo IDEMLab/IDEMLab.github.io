@@ -11,7 +11,7 @@ Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab in New York Un
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore how we investigate the neural dynamics of memory through cognitive neuroscience methods. 
 
 {%
   include button.html
@@ -33,12 +33,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Stay tuned for our upcoming findings and contributions to the field of episodic memory research.
 
 {%
   include button.html
   link="projects"
-  text="Browse our publications"
+  text="Coming soon: Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -57,7 +57,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the researchers behind our lab, dedicated to advancing the understanding of memory and cognition.
 
 {%
   include button.html
