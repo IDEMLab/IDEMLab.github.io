@@ -7,7 +7,7 @@ Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab in New York Un
 
 {% include section.html %}
 
-## Highlights
+
 
 {% capture text %}
 
