@@ -32,11 +32,11 @@ We are always excited to hear from individuals interested in joining our lab. Pl
   link="https://www.google.com/maps?sca_esv=ce726b12b82d8816&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIgY2IHdhc2gqAggAMg4QLhiABBjHARiOBRivATILEAAYgAQYkQIYigUyBRAAGIAEMgsQABiABBiRAhiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIdEC4YgAQYxwEYjgUYrwEYlwUY3AQY3gQY4ATYAQFIwRdQ5ghYnw1wA3gAkAEAmAG2AaABugWqAQM1LjK4AQHIAQD4AQGYAgmgAqwFwgIKEAAYsAMY1gQYR8ICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAggQABiABBiLA8ICCxAAGIAEGLEDGIsDwgIaEC4YgAQYsQMY0QMY0gMYgwEYxwEYqAMYiwPCAhMQLhiABBhDGMcBGIoFGI4FGK8BwgILEC4YgAQYxwEYrwHCAg4QABiABBixAxiDARiLA5gDAIgGAZAGCLoGBggBEAEYFJIHAzcuMqAH4Tg&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KbV48oSaWcKJMQUpw0xI4GCA&daddr=6+Washington+Pl,+New+York,+NY+10003"
 %}
 
-
+{% comment %}
 ## Participate in one of our studies
 
 {% include section.html %}
 
 {% include list.html component="card" data="studies" %}
 
-
+{% endcomment %}
