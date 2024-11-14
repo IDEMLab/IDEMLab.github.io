@@ -1,7 +1,7 @@
 ---
 ---
 <div style="text-align: center;">
-under construction...
+UNDER CONSTRUCTION<br>
 Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab in New York University's Department of Psychology. Our lab, led by Sebastian Michelmann, explores the complexities of episodic memory through cognitive and computational neuroscience. 
 </div>
 
