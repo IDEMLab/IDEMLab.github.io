@@ -13,8 +13,21 @@ nav:
         margin: 0 auto; /* Center the form horizontally */
     }
 
-    label, input {
+    .input-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         margin-bottom: 15px;
+    }
+
+    label {
+        margin-right: 10px;
+        flex-basis: 30%;
+        text-align: right;
+    }
+
+    input {
+        flex-basis: 70%;
     }
 
     input[type="submit"] {
@@ -24,10 +37,14 @@ nav:
 </style>
 
 <form id="loginForm" onsubmit="return authenticate(event)">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
+    <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
     <input type="submit" value="Login">
 </form>
 
@@ -35,8 +52,8 @@ nav:
     function authenticate(event) {
         event.preventDefault(); // Prevent form submission
 
-        const validUsername = "michelmannlab"; // Set your username here
-        const validPassword = "michelmannlab"; // Set your password here
+        const validUsername = "test"; // Set your username here
+        const validPassword = "test"; // Set your password here
 
         const usernameInput = document.getElementById("username").value;
         const passwordInput = document.getElementById("password").value;
