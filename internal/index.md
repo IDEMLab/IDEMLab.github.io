@@ -11,7 +11,7 @@ nav:
 
 <script>
     function authenticate() {
-        const validUsername = "michelmannlab@nyu.edu"; // Set your username here
+        const validUsername = "michelmannlab"; // Set your username here
         const validPassword = "michelmannlab"; // Set your password here
 
         const usernameInput = prompt("Username:");
