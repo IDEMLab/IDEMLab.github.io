@@ -15,7 +15,7 @@ phd:
 undergrad:
   description: Undergraduate Student
 
-grad:
+masters:
   description: Masters Student
 
 mascot:
