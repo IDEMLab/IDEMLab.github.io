@@ -5,15 +5,29 @@ nav:
   tooltip: Internal Resources
 ---
 
+<style>
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto; /* Center the form horizontally */
+    }
 
-<h1>Internal Page Access</h1>
-<p>Please enter your username and password to access this section:</p>
+    label, input {
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        margin-top: 10px;
+        cursor: pointer;
+    }
+</style>
 
 <form id="loginForm" onsubmit="return authenticate(event)">
-    <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username" required><br><br>
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
     <input type="submit" value="Login">
 </form>
 
