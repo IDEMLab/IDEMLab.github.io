@@ -1,7 +1,7 @@
 ---
 name: Natasha Recoder
 image: images/natasha_recoder.png
-role: grad
+role: masters
 
 links:
   email: npr264@nyu.edu
