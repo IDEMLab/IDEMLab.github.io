@@ -19,7 +19,7 @@ Here you can learn more about the researchers who drive our lab’s exploration 
 
 {% include list.html data="members" component="portrait" filters="role: labmanager" %}
 
-{% include list.html data="members" component="portrait" filters="role: grad" %}
+{% include list.html data="members" component="portrait" filters="role: masters" %}
 
 {% include list.html data="members" component="portrait" filters="role: undergrad" %}
 
