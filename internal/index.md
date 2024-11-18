@@ -3,8 +3,6 @@
 title: Internal
 nav:
   order: 5
-url: https://www.notion.so/96e0c6e6f0d943029988054fd986bebf?v=23c4cb74bf1544c881156cb745594944
-external: true
 ---
 
 
