@@ -13,12 +13,10 @@ phd:
   description: PhD Student
 
 undergrad:
-  icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
-programmer:
-  icon: fa-solid fa-code
-  description: Programmer
+grad:
+  description: Masters Student
 
 mascot:
   icon: fa-solid fa-dog
