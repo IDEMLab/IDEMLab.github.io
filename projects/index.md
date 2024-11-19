@@ -7,27 +7,26 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-brain" %}Research
 
-
 <style>
   .research-container {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column; /* Change layout to column to stack text and cards */
     gap: 20px;
   }
-  
+
   .research-text {
-    flex: 2; /* Larger portion for the text */
-    padding-right: 20px; /* Add some spacing between text and cards */
+    padding-bottom: 20px; /* Add space between the text and cards */
   }
-  
+
   .research-cards {
-    flex: 1; /* Smaller portion for the cards */
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap if there are many */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 15px; /* Space between the cards */
   }
-  
+
   .research-cards .card {
     max-width: 250px; /* Limit the card width */
-    margin-bottom: 15px; /* Add space between cards */
   }
 </style>
 
