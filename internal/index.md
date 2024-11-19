@@ -5,6 +5,12 @@ nav:
   tooltip: Internal Resources
 ---
 
+# Login
+[Go to Login](internal/notion.html)
+
+
+
+<!--
 <style>
     #loginForm {
         display: flex;
@@ -88,3 +94,4 @@ nav:
         return false;
     }
 </script>
+-->
