@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        #loginForm {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 50px auto; /* Center form vertically and horizontally */
+            font-family: Arial, sans-serif;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form id="loginForm" onsubmit="return authenticate(event)">
+        <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <input type="submit" value="Login">
+    </form>
+
+    <script>
+        function authenticate(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            const validUsername = "test"; // Replace with your desired username
+            const validPassword = "test"; // Replace with your desired password
+
+            const usernameInput = document.getElementById("username").value.trim();
+            const passwordInput = document.getElementById("password").value.trim();
+
+            if (usernameInput !== validUsername || passwordInput !== validPassword) {
+                alert("You don’t have access to this section. If you believe this is an error, please contact our lab manager.");
+                return false;
+            }
+
+            // Redirect if both username and password are correct
+            window.location.href = "https://www.example.com"; // Replace with your desired redirect URL
+        }
+    </script>
+</body>
+</html>
