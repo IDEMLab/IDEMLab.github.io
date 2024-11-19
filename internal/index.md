@@ -5,8 +5,10 @@ nav:
   tooltip: Internal Resources
 ---
 
-# Login
-[Go to Login](notion.html)
+
+<div style="text-align: center; margin-top: 50px;">
+  <a href="notion.html" style="font-size: 20px; color: #007BFF; text-decoration: none;">Go to Login</a>
+</div>
 
 
 
