@@ -6,7 +6,7 @@ nav:
 ---
 
 # Login
-[Go to Login](internal/notion.html)
+[Go to Login](notion.html)
 
 
 
