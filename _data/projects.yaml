@@ -8,6 +8,10 @@
 
 - title: 
   group: featured
+  image: images/ieeg.jpg
+  
+- title: 
+  group: featured
   image: images/computational.png #  description: We use computational models to simulate and understand the neural mechanisms of memory, allowing us to explore how complex cognitive processes like encoding and retrieval are governed by underlying computational principles.
 
 - title: 
