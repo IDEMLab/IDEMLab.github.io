@@ -13,7 +13,7 @@
 
 {% capture text %}
 
-Explore how we investigate the neural dynamics of memory through cognitive neuroscience methods. 
+Learn more about what we investigate and the methods we use. 
 
 {%
   include button.html
