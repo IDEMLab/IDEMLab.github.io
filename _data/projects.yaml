@@ -1,21 +1,17 @@
 - title: 
   group: featured
-  image: images/meg.jpg
- # description: We use MEG, which offers exceptional temporal and strong spatial resolution, to investigate how the brain encodes and retrieves memories in real time
+  image: images/meg.jpg # description: We use MEG, which offers exceptional temporal and strong spatial resolution, to investigate how the brain encodes and retrieves memories in real time
 
 - title: 
   group: featured
-  image: images/eeg.jpg
-#  description: We use EEG, which provides excellent temporal resolution, to examine the brain’s rapid electrical activity as it encodes and retrieves memories, helping us understand the precise timing of neural processes involved in episodic memory.
+  image: images/eeg.jpg #  description: We use EEG, which provides excellent temporal resolution, to examine the brain’s rapid electrical activity as it encodes and retrieves memories, helping us understand the precise timing of neural processes involved in episodic memory.
 
 - title: 
   group: featured
-  image: images/computational.png
-#  description: We use computational models to simulate and understand the neural mechanisms of memory, allowing us to explore how complex cognitive processes like encoding and retrieval are governed by underlying computational principles.
+  image: images/computational.png #  description: We use computational models to simulate and understand the neural mechanisms of memory, allowing us to explore how complex cognitive processes like encoding and retrieval are governed by underlying computational principles.
 
 - title: 
   group: featured
-  image: images/behavior.png
-#  description: We use behavioral experiments to investigate how memory functions in real-world tasks, providing insights into the cognitive processes of encoding, retrieval, and the factors that influence memory performance.
+  image: images/behavior.png # description: We use behavioral experiments to investigate how memory functions in real-world tasks, providing insights into the cognitive processes of encoding, retrieval, and the factors that influence memory performance.
 
   
