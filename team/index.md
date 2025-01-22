@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}People
 
-Here you can learn more about the researchers who drive our lab’s exploration into the complexities of memory and cognition. Our team brings together a diverse set of skills and expertise, all interested in advancing our understanding of how memories are formed, stored, and retrieved.
-
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
