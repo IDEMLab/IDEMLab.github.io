@@ -27,8 +27,6 @@ jobs:
   update-citations:
     runs-on: ubuntu-22.04
     timeout-minutes: 15
-    env:
-      GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
 
     steps:
       # for debugging
@@ -54,6 +52,9 @@ jobs:
       # for debugging
       - if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
+        
+      - name: Write .env file for Google Scholar key
+        run: echo "GOOGLE_SCHOLAR_API_KEY=${GOOGLE_SCHOLAR_API_KEY}" > .env
 
       - name: Build updated citations
         run: python _cite/cite.py
