@@ -7,10 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-book" %}Publications
 
-Coming soon...
 
 {% comment %}
-<!-- {% include section.html %}
+{% include section.html %}
 
 ## Highlighted
 
@@ -24,5 +23,5 @@ Coming soon...
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %} -->
+{% include list.html data="citations" component="citation" style="rich" %}
 {% endcomment %}
