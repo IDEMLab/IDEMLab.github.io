@@ -52,7 +52,17 @@ jobs:
       # for debugging
       - if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
-
+        
+      - name: Debug env var
+        run: |
+          if [ -z "$GOOGLE_SCHOLAR_API_KEY" ]; then
+            echo "NOT SET"
+            exit 1
+          else
+            echo "GOOGLE_SCHOLAR_API_KEY is present"
+            echo "${GOOGLE_SCHOLAR_API_KEY:0:4}****"
+          fi
+              
       - name: Build updated citations
         run: python _cite/cite.py
         timeout-minutes: 15
