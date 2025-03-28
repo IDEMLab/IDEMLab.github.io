@@ -27,6 +27,8 @@ jobs:
   update-citations:
     runs-on: ubuntu-22.04
     timeout-minutes: 15
+    env:
+      GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
 
     steps:
       # for debugging
