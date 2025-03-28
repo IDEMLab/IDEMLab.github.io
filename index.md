@@ -86,7 +86,6 @@ See what we're up to outside of research.
   link="photos"
   text="View photos and events"
   icon="fa-solid fa-arrow-right"
-  flip=true
   style="bare"
 %}
 
