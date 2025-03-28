@@ -1,7 +1,7 @@
 ---
 ---
 <div style="text-align: center;">
-    <strong> Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab at NYU!</strong><br><br>
+    <!--<strong> -->Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab at NYU!</strong><br><br>
 </div>
 
 
@@ -11,12 +11,12 @@
 
 {% capture text %}
 
-Learn more about what we investigate and the methods we use. 
+<!--Learn more about what we investigate and the methods we use. -->
 
 {%
   include button.html
   link="projects"
-  text="See our research"
+  text="Learn more about our research." <!--"See our research"-->
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -33,7 +33,7 @@ Learn more about what we investigate and the methods we use.
 
 {% capture text %}
 
-Explore some of our work. 
+<!--Explore some of our work. -->
 
 {%
   include button.html
@@ -57,7 +57,7 @@ Explore some of our work.
 
 {% capture text %}
 
-Meet the researchers in our lab.
+<!--Meet the researchers in our lab.-->
 
 {%
   include button.html
@@ -79,7 +79,7 @@ Meet the researchers in our lab.
 
 {% capture text %}
 
-See what we're up to outside of research. 
+<!--See what we're up to outside of research.-->
 
 {%
   include button.html
