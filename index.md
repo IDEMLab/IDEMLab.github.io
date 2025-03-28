@@ -16,7 +16,7 @@
 {%
   include button.html
   link="projects"
-  text="Learn more about our research." <!--"See our research"-->
+  text="Learn more about our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
