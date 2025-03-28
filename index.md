@@ -17,7 +17,7 @@ Learn more about what we investigate and the methods we use.
 
 {%
   include button.html
-  link="research"
+  link="projects"
   text="See our research"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -39,7 +39,7 @@ Stay tuned for our upcoming findings and contributions to the field of episodic 
 
 {%
   include button.html
-  link="projects"
+  link="research"
   text="Coming soon: Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
