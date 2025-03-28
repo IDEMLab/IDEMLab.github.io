@@ -1,9 +1,7 @@
 ---
 ---
 <div style="text-align: center;">
-    <strong>THIS WEBSITE IS UNDER CONSTRUCTION</strong><br><br>
-    Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab in New York University's Department of Psychology.<br>
-    Our lab, led by Sebastian Michelmann, explores the complexities of episodic memory through cognitive and computational neuroscience.
+    <strong> Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab at NYU!</strong><br><br>
 </div>
 
 
@@ -35,12 +33,12 @@ Learn more about what we investigate and the methods we use.
 
 {% capture text %}
 
-Stay tuned for our upcoming findings and contributions to the field of episodic memory research.
+Explore some of our work. 
 
 {%
   include button.html
   link="research"
-  text="Coming soon: Browse our publications"
+  text="Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -59,7 +57,7 @@ Stay tuned for our upcoming findings and contributions to the field of episodic 
 
 {% capture text %}
 
-Meet the researchers behind our lab, dedicated to advancing the understanding of memory and cognition.
+Meet the researchers in our lab.
 
 {%
   include button.html
@@ -75,6 +73,28 @@ Meet the researchers behind our lab, dedicated to advancing the understanding of
 {%
   include feature.html
   image="images/our_team.png"
+  link="team"
+  text=text
+%}
+
+{% capture text %}
+
+See what we're up to outside of research. 
+
+{%
+  include button.html
+  link="photos"
+  text="View photos and events"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/our_photos.png"
   link="team"
   text=text
 %}
