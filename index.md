@@ -1,7 +1,7 @@
 ---
 ---
 <div style="text-align: center;">
-    <!--<strong> -->Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab at NYU!</strong><br><br>
+    <!--<strong> -->Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab at NYU! <!-- </strong><br><br> -->
 </div>
 
 
@@ -86,6 +86,7 @@
   link="photos"
   text="View photos and events"
   icon="fa-solid fa-arrow-right"
+  flip=true
   style="bare"
 %}
 
@@ -95,5 +96,7 @@
   include feature.html
   image="images/our_photos.png"
   link="team"
+  flip=true
+  style="bare"
   text=text
 %}
