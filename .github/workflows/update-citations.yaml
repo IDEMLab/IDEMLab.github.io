@@ -26,7 +26,6 @@ env:
 jobs:
   update-citations:
     runs-on: ubuntu-22.04
-    environment: github-pages
     timeout-minutes: 15
 
     steps:
