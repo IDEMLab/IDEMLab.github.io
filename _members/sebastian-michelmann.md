@@ -11,7 +11,7 @@ links:
   google-scholar: ZKnNXjYAAAAJ&view_op=list_works&sortby=pubdate&inst=10749622055976013885
   cv: michelmann-CV.pdf
   twitter: s_michelmann
-  github: s-michelmann
+  website: https://s-michelmann.github.io/
 ---
 
 **Education**
