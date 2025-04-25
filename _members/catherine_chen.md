@@ -1,7 +1,7 @@
 ---
 name: Catherine Chedn
 image: images/catherine-chen.png
-role: mastudent
+role: masters
 links:
   email: sc10668@nyu.edu
 ---
