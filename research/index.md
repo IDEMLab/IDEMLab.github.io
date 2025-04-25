@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-book" %}Publications
 
 
-{% comment %}
+
 {% include section.html %}
 
 ## Highlighted
@@ -24,4 +24,4 @@ nav:
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
-{% endcomment %}
+
