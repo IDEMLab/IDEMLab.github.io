@@ -2,11 +2,13 @@ name: update-citations
 run-name: update citations
 
 on:
-  # run when called from another workflow
   workflow_call:
     inputs:
       open-pr:
         type: boolean
+    secrets:
+      GOOGLE_SCHOLAR_API_KEY:
+        required: true
     outputs:
       changed:
         value: ${{ jobs.update-citations.outputs.changed }}
