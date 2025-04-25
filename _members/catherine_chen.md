@@ -1,5 +1,5 @@
 ---
-name: Catherine Chedn
+name: Catherine Chen
 image: images/catherine-chen.png
 role: masters
 links:
