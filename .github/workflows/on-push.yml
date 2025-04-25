@@ -19,9 +19,13 @@ jobs:
     # skip first run because nothing enabled or setup yet
     if: github.run_number != 1
     uses: ./.github/workflows/update-citations.yaml
+    secrets:
+      GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
 
   build-site:
     needs: update-citations
     uses: ./.github/workflows/build-site.yaml
+    secrets:
+      GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
     
     
