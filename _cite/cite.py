@@ -28,7 +28,8 @@ log("Compiling sources")
 sources = []
 
 # in-order list of plugins to run
-plugins = ["google-scholar", "pubmed", "orcid", "sources"]
+# plugins = ["google-scholar", "pubmed", "orcid", "sources"] NOTE TO SELF 4/25 REMOVED GOOGLE SCHOLAR BC IT WASNT WORKING
+plugins = ["pubmed", "orcid", "sources"]
 
 # loop through plugins
 for plugin in plugins:
