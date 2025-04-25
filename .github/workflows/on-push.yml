@@ -25,7 +25,6 @@ jobs:
   build-site:
     needs: update-citations
     uses: ./.github/workflows/build-site.yaml
-    secrets:
-      GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
+
     
     
