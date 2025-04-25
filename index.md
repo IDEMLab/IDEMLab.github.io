@@ -15,7 +15,7 @@
 
 {%
   include button.html
-  link="projects"
+  link="research"
   text="Learn more about our research"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -37,7 +37,7 @@
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -49,7 +49,7 @@
 {%
   include feature.html
   image="images/our_publications.png"
-  link="projects"
+  link="publications"
   flip=true
   style="bare"
   text=text
@@ -95,7 +95,7 @@
 {%
   include feature.html
   image="images/our_photos.png"
-  link="team"
+  link="photos"
   flip=true
   style="bare"
   text=text
