@@ -37,7 +37,7 @@
 
 {%
   include button.html
-  external=https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=ZKnNXjYAAAAJ&sortby=pubdate<!--link="publications"-->
+  link="publications"
   text="Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
