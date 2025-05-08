@@ -428,7 +428,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.3389/conf.fnhum.2015.217.00356
+- id: doi:10.1523/jneurosci.2324-16.2017
   title: Temporal dynamics and mechanisms of oscillatory pattern reinstatement in
     human episodic memory
   authors:
@@ -439,7 +439,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.53765/20512201.30.9.143
+- id: doi:10.1109/aece62803.2024.10911393
   title: Testing Memory Capabilities in Large Language Models with the Sequence Order
     Recall Task
   authors:
