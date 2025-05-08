@@ -94,7 +94,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.31219/osf.io/k9hnf
+- id: doi:10.3758/s13421-020-01072-y
   title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
   authors:
   - CT Ngo
@@ -133,6 +133,23 @@
   publisher: Psychological Science, 09567976221128206, 2023
   date: '2023-01-01'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_kc_bZDykSQC
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1016/j.neuron.2024.06.025
+  title: A shared model-based linguistic space for transmitting our thoughts from
+    brain to brain in natural conversations
+  authors:
+  - Z Zada
+  - A Goldstein
+  - S Michelmann
+  - E Simony
+  - A Price
+  - L Hasenfratz
+  - '...'
+  publisher: Neuron 112 (18), 3211-3222. e5, 2024
+  date: '2024-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4DMP91E08xMC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -355,7 +372,7 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
 - id: doi:10.1101/2025.02.14.638352
-  title: The Podcast ECoG dataset for modeling neural activity during natural language
+  title: The" Podcast" ECoG dataset for modeling neural activity during natural language
     comprehension
   authors:
   - Z Zada
@@ -411,7 +428,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1523/jneurosci.2324-16.2017
+- id: doi:10.3389/conf.fnhum.2015.217.00356
   title: Temporal dynamics and mechanisms of oscillatory pattern reinstatement in
     human episodic memory
   authors:
