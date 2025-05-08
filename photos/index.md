@@ -1,6 +1,6 @@
 ---
 title: Photos
 nav:
-  order: 7
+  order: 6
 ---
 
