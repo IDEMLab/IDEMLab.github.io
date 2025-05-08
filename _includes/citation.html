@@ -8,6 +8,7 @@
   {% assign citation = include %}
 {% endif %}
 
+{% comment %}
 <div class="citation-container">
   <div class="citation">
     {% if include.style == "rich" %}
@@ -26,6 +27,7 @@
         >
       </a>
     {% endif %}
+{% endcomment %}
 
     <div class="citation-text">
       {% assign type = site.data.types[citation.type] %}
