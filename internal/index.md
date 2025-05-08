@@ -1,7 +1,7 @@
 ---
 title: Internal
 nav:
-  order: 5
+  order: 7
   tooltip: Internal Resources
 ---
 
