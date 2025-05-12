@@ -18,6 +18,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2019'
 - id: doi:10.7554/elife.17397
   title: Hippocampal pattern completion is linked to gamma power increases and alpha
     power decreases during recollection
@@ -34,6 +35,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2016'
 - id: doi:10.1371/journal.pbio.1002528
   title: 'The temporal signature of memories: identification of a general mechanism
     for dynamic memory replay in humans'
@@ -47,6 +49,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2016'
 - id: doi:10.1101/323774
   title: Speed of time-compressed forward replay flexibly changes in human episodic
     memory
@@ -61,6 +64,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2019'
 - id: doi:10.1073/pnas.2114171118
   title: The hippocampus as the switchboard between perception and memory
   authors:
@@ -77,6 +81,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2021'
 - id: doi:10.1016/j.jneumeth.2018.06.021
   title: Data-driven re-referencing of intracranial EEG based on independent component
     analysis (ICA)
@@ -94,6 +99,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2018'
 - id: doi:10.31219/osf.io/k9hnf
   title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
   authors:
@@ -102,11 +108,12 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-05-12'
+  date: '2020'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2020'
 - id: doi:10.1101/2020.12.09.416438
   title: Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical
     interactions
@@ -119,11 +126,12 @@
   - D Friedman
   - '...'
   publisher: Nature Communications 12 (1), 1-15, 2021
-  date: '2021-09-13'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hqOjcs7Dif8C
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2021'
 - id: doi:10.1177/09567976221128206
   title: Evidence That Event Boundaries Are Access Points for Memory Retrieval
   authors:
@@ -136,6 +144,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2023'
 - id: doi:10.1016/j.neuron.2024.06.025
   title: A shared model-based linguistic space for transmitting our thoughts from
     brain to brain in natural conversations
@@ -153,6 +162,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2024'
 - id: doi:10.1111/cogs.13343
   title: Event Segmentation In Story Listening Using Deep Language Models
   authors:
@@ -169,6 +179,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2023'
 - id: doi:10.1162/jocn_a_01304
   title: Replay of Stimulus-specific Temporal Patterns during Associative Memory Formation
   authors:
@@ -176,11 +187,12 @@
   - H Bowman
   - S Hanslmayr
   publisher: Journal of cognitive neuroscience 30 (11), 1577-1589, 2018
-  date: '2018-07-13'
+  date: '2018-11'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2018'
 - id: doi:10.1111/psyp.12822
   title: Learning processes underlying avoidance of negative outcomes
   authors:
@@ -189,11 +201,12 @@
   - P Pauli
   - J Hewig
   publisher: Psychophysiology 54 (4), 578-590, 2017
-  date: '2025-02-11'
+  date: '2017-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2017'
 - id: doi:10.3758/s13428-024-02569-z
   title: Large language models can segment narrative events similarly to humans
   authors:
@@ -207,6 +220,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2025'
 - id: doi:10.1101/2022.12.21.521184
   title: 'Test-retest reliability of the human connectome: An OPM-MEG study'
   authors:
@@ -224,6 +238,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2023'
 - id: doi:10.31219/osf.io/sbrg7
   title: 'RT-Cloud: a cloud-based software framework to simplify and standardize real-time
     fMRI'
@@ -241,6 +256,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2022'
 - id: doi:10.1093/oxfordhb/9780192898340.013.10
   title: The role of alpha and beta oscillations in the human EEG during perception
     and memory processes
@@ -254,6 +270,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2022'
 - id: doi:10.1101/715276
   title: EEG and fMRI evidence for autobiographical memory reactivation in empathy
   authors:
@@ -269,6 +286,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2021'
 - id: doi:10.1016/j.neuropsychologia.2021.107867
   title: 'The Sync-Fire/deSync model: Modelling the reactivation of dynamic memories
     from cortical alpha oscillations'
@@ -283,6 +301,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2021'
 - id: doi:10.1007/978-3-030-31635-8_229
   title: Classification of P300 component using a riemannian ensemble approach
   authors:
@@ -297,6 +316,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2020'
 - id: doi:10.1016/j.actpsy.2024.104240
   title: Post-hypnotic suggestion improves confidence and speed of memory access with
     long-lasting effects
@@ -312,6 +332,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2024'
 - id: doi:10.1007/978-3-031-20910-9_28
   title: How Should I Re-reference My Intracranial EEG Data?
   authors:
@@ -324,6 +345,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2023'
 - id: doi:10.1016/j.isci.2022.105246
   title: Magnetoencephalographic spectral fingerprints differentiate evidence accumulation
     from saccadic motor preparation in perceptual decision-making
@@ -336,11 +358,12 @@
   - S Michelmann
   - '...'
   publisher: Iscience 25 (10), 105246, 2022
-  date: '2022-09-29'
+  date: '2022-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:3fE2CSJIrl8C
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2022'
 - id: doi:10.1101/2025.02.11.637471
   title: Fast-timescale hippocampal processes bridge between slowly unfurling neocortical
     states during memory search
@@ -358,6 +381,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2025'
 - id: doi:10.1101/2025.04.22.649929
   title: Hippocampal ripples initiate cortical dimensionality expansion for memory
     retrieval
@@ -371,6 +395,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2025'
 - id: doi:10.1101/2025.02.14.638352
   title: The Podcast ECoG dataset for modeling neural activity during natural language
     comprehension
@@ -388,6 +413,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2025'
 - id: doi:10.1145/3520304.3528883
   title: Assessing Episodic Memory in LLMs with Sequence Order Recall Tasks
   authors:
@@ -405,6 +431,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2022'
 - id: doi:10.1016/j.ijpsycho.2023.05.062
   title: 10.1 ALPHA OSCILLATIONS AND THEIR RELATION TO COGNITION
   authors:
@@ -417,6 +444,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2018'
 - id: doi:10.1016/s1051-0443(04)70059-7
   title: What determines when we store and retrieve memories under naturalistic conditions?
     And how does the brain do it?
@@ -428,6 +456,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2004'
 - id: doi:10.3389/conf.fnhum.2015.217.00356
   title: Temporal dynamics and mechanisms of oscillatory pattern reinstatement in
     human episodic memory
@@ -439,6 +468,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2018'
 - id: doi:10.1109/aece62803.2024.10911393
   title: Testing Memory Capabilities in Large Language Models with the Sequence Order
     Recall Task
@@ -457,3 +487,4 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+  sort_date: '2024'
