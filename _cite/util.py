@@ -149,6 +149,16 @@ def save_data(path, data):
     # prevent yaml anchors/aliases (pointers)
     yaml.Dumper.ignore_aliases = lambda *args: True
 
+    # ensure all date strings are wrapped in single quotes
+    class QuotedString(str): pass
+    def quoted_str_representer(dumper, data):
+        return dumper.represent_scalar('tag:yaml.org,2002:str', data, style="'")
+    yaml.add_representer(QuotedString, quoted_str_representer)
+    
+    for entry in data:
+        if "date" in entry and isinstance(entry["date"], str):
+            entry["date"] = QuotedString(entry["date"])
+    
     # try to save data as yaml
     try:
         with file:
