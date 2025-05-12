@@ -50,6 +50,9 @@ def main(entry):
     sources = []
 
     for work in response:
+
+        print("DEBUG work object:", work)
+        
         year = get_safe(work, "year", "")
         title = get_safe(work, "title", "")
 
