@@ -20,17 +20,17 @@ nav:
 
 
 
-
+{% comment %}
 {% include section.html %}
 
-{% comment %} ## Highlighted
+## Highlighted
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
 {% include section.html %}
 
 ## All
-{% endcomment %}
+
 
 {% include search-box.html %}
 
@@ -38,3 +38,4 @@ nav:
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
+{% endcomment %}
