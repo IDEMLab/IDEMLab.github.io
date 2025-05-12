@@ -64,7 +64,7 @@
           {{- citation.publisher | default: "[no publisher info]" -}}
         </span>
         &nbsp;·&nbsp;
-        <span class="citation-date">
+       <span class="citation-date">
           {% assign parts = citation.date | split: "-" %}
           {% case parts.size %}
             {% when 3 %}
@@ -77,7 +77,7 @@
             {% when 1 %}
               {{ citation.date }}
             {% else %}
-              [no date info]
+              {{ "" }}
           {% endcase %}
         </span>
         &nbsp;·&nbsp;
