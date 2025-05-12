@@ -7,6 +7,7 @@ from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
 from util import *
+import re
 
 
 # load environment variables
@@ -162,9 +163,12 @@ for index, source in enumerate(sources):
     # preserve fields from input source, overriding existing fields
     citation.update(source)
 
-    # ensure date in proper format for correct date sorting
-    if get_safe(citation, "date", ""):
-        citation["date"] = format_date(get_safe(citation, "date", ""))
+    # Only run format_date if it's NOT already ISO-like
+    raw_date = get_safe(citation, "date", "").strip()
+    if raw_date and not re.fullmatch(r"\d{4}(-\d{2}){0,2}", raw_date):
+        citation["date"] = format_date(raw_date)
+    else:
+        citation["date"] = raw_date
 
     # add new citation to list
     citations.append(citation)
