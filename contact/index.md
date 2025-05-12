@@ -2,7 +2,7 @@
 title: Get Involved
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Contact us
 ---
 # {% include icon.html icon="fa-solid fa-people-roof" %}Diversity, Equity, and Inclusion Statement
 <div style="text-align: center; margin-bottom: 50px;">
