@@ -67,6 +67,7 @@ def get_pubmed_date_from_doi(doi):
 
 
 def main(entry):
+    print("🔍 INPUT ENTRY:", json.dumps(entry, indent=2))  
     api_key = os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
     if not api_key:
         raise Exception('No "GOOGLE_SCHOLAR_API_KEY" env var')
@@ -129,5 +130,5 @@ def main(entry):
 
         source.update(entry)
         sources.append(source)
-
+    print("✅ OUTPUT SOURCES:", json.dumps(sources, indent=2)) 
     return sources
