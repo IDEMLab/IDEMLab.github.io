@@ -11,12 +11,8 @@
 {%- assign years = preprints | concat: others -%}
 
 {% for year in years %}
-  {% assign data = year.items %}
-
-  {% if years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
-    {% assign data = data | sort: "date" | reverse %}
-  {% endif %}
+  {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+  {% assign data = year.items | sort: "date" | reverse %}
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
