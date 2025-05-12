@@ -82,9 +82,9 @@ def main(entry):
         # Get DOI and structured publication date from CrossRef
         doi, crossref_date = get_doi_and_date_from_title(title)
 
-        # Fallback: Try to parse Google Scholar's YYYY/M or YYYY/M/D into ISO
+       # Fallback: Try to parse Google Scholar's YYYY/M or YYYY/M/D into ISO
         if not crossref_date:
-            match = re.match(r"(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?", gs_raw_date)
+            match = re.match(r"^(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?$", gs_raw_date)
             if match:
                 y, m, d = match.groups()
                 if y and m and d:
@@ -94,9 +94,7 @@ def main(entry):
                 else:
                     formatted_date = y
             else:
-                formatted_date = gs_raw_date
-        else:
-            formatted_date = crossref_date
+                formatted_date = y if y else ""
 
         source = {
             "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
