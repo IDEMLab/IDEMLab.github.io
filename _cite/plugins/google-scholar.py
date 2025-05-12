@@ -1,48 +1,7 @@
 import os
 import re
-import requests
 from serpapi import GoogleSearch
 from util import *
-
-
-def get_doi_and_date_from_title(title):
-    """Query CrossRef API for DOI and best-available ISO date from a title."""
-    url = "https://api.crossref.org/works"
-    params = {"query.title": title, "rows": 1}
-    try:
-        response = requests.get(url, params=params, timeout=10)
-        items = response.json().get("message", {}).get("items", [])
-        if items:
-            item = items[0]
-            doi = item.get("DOI", "")
-
-            # Prefer print date, fall back to online date
-            date_parts = (
-                item.get("published-print", {}).get("date-parts")
-                or item.get("published-online", {}).get("date-parts")
-                or []
-            )
-
-            if date_parts and len(date_parts[0]) >= 1:
-                parts = date_parts[0]
-                year = str(parts[0])
-                month = f"{parts[1]:02d}" if len(parts) > 1 else None
-                day = f"{parts[2]:02d}" if len(parts) > 2 else None
-
-                if month and day:
-                    pub_date = f"{year}-{month}-{day}"
-                elif month:
-                    pub_date = f"{year}-{month}"
-                else:
-                    pub_date = year
-            else:
-                pub_date = ""
-
-            return doi, pub_date
-    except Exception as e:
-        log(f"CrossRef DOI/date lookup failed: {e}", level="WARNING")
-
-    return None, ""
 
 
 def main(entry):
@@ -79,27 +38,21 @@ def main(entry):
         title = get_safe(work, "title", "")
         gs_raw_date = get_safe(work, "year", "").strip().replace(" ", "")
 
-        # Get DOI and structured publication date from CrossRef
-        doi, cr_date = get_doi_and_date_from_title(title)
-
-        # Fallback: parse GS year string if CrossRef returned no usable date
-        if cr_date:
-            formatted_date = cr_date
-        else:
-            match = re.match(r"^(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?$", gs_raw_date)
-            if match:
-                y, m, d = match.groups()
-                if d:
-                    formatted_date = f"{y}-{int(m):02d}-{int(d):02d}"
-                elif m:
-                    formatted_date = f"{y}-{int(m):02d}"
-                else:
-                    formatted_date = y
+        # Parse Google Scholar's YYYY/M or YYYY/M/D into ISO
+        match = re.match(r"^(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?$", gs_raw_date)
+        if match:
+            y, m, d = match.groups()
+            if d:
+                formatted_date = f"{y}-{int(m):02d}-{int(d):02d}"
+            elif m:
+                formatted_date = f"{y}-{int(m):02d}"
             else:
-                formatted_date = gs_raw_date if gs_raw_date else ""
+                formatted_date = y
+        else:
+            formatted_date = gs_raw_date if gs_raw_date else ""
 
         source = {
-            "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
+            "id": get_safe(work, "citation_id", ""),
             "title": title,
             "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
