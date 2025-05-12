@@ -77,13 +77,26 @@ def main(entry):
 
     for work in response:
         title = get_safe(work, "title", "")
-        year = get_safe(work, "year", "").strip()
+        gs_raw_date = get_safe(work, "year", "").strip()
 
         # Get DOI and structured publication date from CrossRef
         doi, crossref_date = get_doi_and_date_from_title(title)
 
-        # Fallback to Google Scholar year if CrossRef has no date
-        formatted_date = crossref_date if crossref_date else year
+        # Fallback: Try to parse Google Scholar's YYYY/M or YYYY/M/D into ISO
+        if not crossref_date:
+            match = re.match(r"(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?", gs_raw_date)
+            if match:
+                y, m, d = match.groups()
+                if y and m and d:
+                    formatted_date = f"{y}-{int(m):02d}-{int(d):02d}"
+                elif y and m:
+                    formatted_date = f"{y}-{int(m):02d}"
+                else:
+                    formatted_date = y
+            else:
+                formatted_date = gs_raw_date
+        else:
+            formatted_date = crossref_date
 
         source = {
             "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
