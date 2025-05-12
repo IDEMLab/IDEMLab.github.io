@@ -88,18 +88,28 @@ def list_of_dicts(data):
     return isinstance(data, list) and all(isinstance(entry, dict) for entry in data)
 
 
+from datetime import datetime, date
 def format_date(_date):
     """
-    format date as YYYY-MM-DD, or no date if malformed
+    Format a date string or object as ISO (YYYY-MM-DD, YYYY-MM, or YYYY).
+    If format is invalid, return empty string.
     """
-
     if isinstance(_date, int):
         return datetime.fromtimestamp(_date // 1000.0).strftime("%Y-%m-%d")
     if isinstance(_date, (date, datetime)):
         return _date.strftime("%Y-%m-%d")
+    
     try:
         return datetime.strptime(_date, "%Y-%m-%d").strftime("%Y-%m-%d")
-    except Exception:
+    except ValueError:
+        pass
+    try:
+        return datetime.strptime(_date, "%Y-%m").strftime("%Y-%m")
+    except ValueError:
+        pass
+    try:
+        return datetime.strptime(_date, "%Y").strftime("%Y")
+    except ValueError:
         return ""
 
 
