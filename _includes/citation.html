@@ -65,14 +65,7 @@
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
-          {% assign raw_date = citation.date | default: "" %}
-          {% if raw_date contains "-" and raw_date.size >= 10 %}
-            {{ raw_date | date: "%d %b %Y" }}
-          {% elsif raw_date != "" %}
-            {{ raw_date }}
-          {% else %}
-            [no date info]
-          {% endif %}
+          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-id">
