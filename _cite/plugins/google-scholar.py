@@ -2,6 +2,7 @@ import os
 import requests
 from serpapi import GoogleSearch
 from util import *
+import re
 
 
 def get_doi_from_title(title):
@@ -52,6 +53,19 @@ def main(entry):
         year = get_safe(work, "year", "")
         title = get_safe(work, "title", "")
 
+        # Format raw date into ISO format (YYYY, YYYY-MM, or YYYY-MM-DD)
+        date_str = year.strip() if year else ""
+        if re.fullmatch(r"\d{4}", date_str):
+            formatted_date = date_str
+        elif re.fullmatch(r"\d{4}/\d{1,2}", date_str):
+            y, m = date_str.split("/")
+            formatted_date = f"{y}-{int(m):02d}"
+        elif re.fullmatch(r"\d{4}/\d{1,2}/\d{1,2}", date_str):
+            y, m, d = date_str.split("/")
+            formatted_date = f"{y}-{int(m):02d}-{int(d):02d}"
+        else:
+            formatted_date = date_str  # fallback if unexpected format
+
         # Try to get a Manubot-compatible DOI
         doi = get_doi_from_title(title)
 
@@ -60,7 +74,7 @@ def main(entry):
             "title": title,
             "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
-            "date": (year) if year else "",
+            "date": formatted_date,
             "link": get_safe(work, "link", ""),
         }
 
