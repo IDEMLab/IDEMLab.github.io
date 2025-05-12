@@ -126,7 +126,7 @@
   - D Friedman
   - '...'
   publisher: Nature Communications 12 (1), 1-15, 2021
-  date: '2021'
+  date: '2021-09-13'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hqOjcs7Dif8C
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -436,12 +436,12 @@
   - B GRIFFITHS
   - S HANSLMAYR
   publisher: The Oxford Handbook of EEG Frequency, 2022
-  date: '2018-09-10'
+  date: '2023-06'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-  sort_date: '2018'
+  sort_date: '2023'
 - id: doi:10.1016/s1051-0443(04)70059-7
   title: What determines when we store and retrieve memories under naturalistic conditions?
     And how does the brain do it?
