@@ -60,7 +60,7 @@ def main(entry):
             "title": title,
             "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
-            "date": (year + "-01-01") if year else "",
+            "date": (year) if year else "",
             "link": get_safe(work, "link", ""),
         }
 
