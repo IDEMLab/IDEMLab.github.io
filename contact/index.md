@@ -14,7 +14,7 @@ Research and innovation thrive when different voices, perspectives, and experien
 
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
-
+<div style="text-align: center; margin-bottom: 50px;">
 We are always excited to hear from individuals interested in joining our lab. Please feel free to get in touch with us at the email address below!
 
 {%
