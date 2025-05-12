@@ -32,8 +32,9 @@ nav:
 
 <div class="research-container">
   <div class="research-text">
-    <p>In the IDEM Lab, we want to understand how fast neural dynamics enable human episodic memory formation and retrieval. We are especially interested in how memories are formed and retrieved under real-life conditions. For example, when there is no explicit study or test phase, how does the brain determine when to store or retrieve information? And how do different memory systems work together when we process information-rich and continuous stimuli?
-To answer these questions, we leverage a wide array of methods, including electrophysiology (EEG, MEG, and intracranial EEG), computational modeling, and behavioral experiments.</p>
+    <div style="text-align: center; margin-bottom: 50px;">
+      <p>In the IDEM Lab, we want to understand how fast neural dynamics enable human episodic memory formation and retrieval. We are especially interested in how memories are formed and retrieved under real-life conditions. For example, when there is no explicit study or test phase, how does the brain determine when to store or retrieve information? And how do different memory systems work together when we process information-rich and continuous stimuli?
+  To answer these questions, we leverage a wide array of methods, including electrophysiology (EEG, MEG, and intracranial EEG), computational modeling, and behavioral experiments.</p>
   </div>
   <!--
   <div class="research-cards">
