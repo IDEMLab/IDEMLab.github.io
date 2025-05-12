@@ -47,10 +47,10 @@ def get_doi_and_date_from_title(title):
     return None, ""
 
 
-def get_pubmed_date_from_doi(doi):
-    """Search PubMed for DOI and return date if available."""
+def get_pubmed_date_from_title(title):
+    """Search PubMed for a paper title and return its publication date."""
     try:
-        search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={quote(doi)}[aid]&retmode=json"
+        search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={quote(title)}&retmode=json"
         result = json.loads(urlopen(Request(url=search_url)).read())
         pmid_list = result.get("esearchresult", {}).get("idlist", [])
         if not pmid_list:
