@@ -81,9 +81,29 @@ def main(entry):
 
         # Get DOI and structured publication date from CrossRef
         doi, crossref_date = get_doi_and_date_from_title(title)
-
-        # Fallback to Google Scholar year if CrossRef has no date
-        formatted_date = crossref_date if crossref_date else year
+        gs_date_raw = get_safe(work, "year", "").strip().replace(" ", "")
+        
+        # Convert Google Scholar date (e.g., "2020/9/1") into ISO
+        match = re.match(r"^(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?$", gs_date_raw)
+        if match:
+            y, m, d = match.groups()
+            if d:
+                gs_date = f"{y}-{int(m):02d}-{int(d):02d}"
+            elif m:
+                gs_date = f"{y}-{int(m):02d}"
+            else:
+                gs_date = y
+        else:
+            gs_date = gs_date_raw
+        
+        # Use the date with more specificity
+        def date_specificity(date_str):
+            return date_str.count("-")  # 0: year, 1: year-month, 2: full date
+        
+        if gs_date and (date_specificity(gs_date) > date_specificity(crossref_date)):
+            formatted_date = gs_date
+        else:
+            formatted_date = crossref_date or gs_date
 
         source = {
             "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
