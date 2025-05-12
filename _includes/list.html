@@ -5,11 +5,10 @@
   | data_filter: include.filters
 %}
 
-{% assign years = data
-  | group_by: "sort_date"
-  | sort: "name"
-  | reverse
-%}
+{%- assign grouped = data | group_by: "sort_date" -%}
+{%- assign preprints = grouped | where: "name", "Preprints" -%}
+{%- assign others = grouped | reject: "name", "Preprints" | sort: "name" | reverse -%}
+{%- assign years = preprints | concat: others -%}
 
 {% for year in years %}
   {% assign data = year.items %}
