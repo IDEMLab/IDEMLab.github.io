@@ -156,10 +156,14 @@ for index, source in enumerate(sources):
     # preserve fields from input source, overriding existing fields
     citation.update(source)
 
-   # ensure date in proper format for correct date sorting
-    if get_safe(citation, "date", ""):
-        citation["date"] = format_date(get_safe(citation, "date", ""))
-        
+    # ensure full date is preserved for display
+    full_date = get_safe(citation, "date", "").strip()
+    citation["date"] = full_date
+    
+    # add a new field used only for sorting
+    match = re.match(r"^(\d{4})", full_date)
+    citation["sort_date"] = match.group(1) if match else ""
+            
     # add new citation to list
     citations.append(citation)
 
