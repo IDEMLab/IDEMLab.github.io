@@ -87,6 +87,10 @@ for plugin in plugins:
                 source["plugin"] = plugin.name
                 source["file"] = file.name
 
+                # sanitize problematic title fields
+                if "title" in source and isinstance(source["title"], str):
+                    source["title"] = source["title"].replace('"', '')
+    
                 # add source to compiled list
                 sources.append(source)
 
