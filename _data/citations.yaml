@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1073/pnas.1914180116
+- id: doi:10.1101/305698
   title: Directional coupling of slow and fast hippocampal gamma with neocortical
     alpha/beta oscillations in human episodic memory
   authors:
@@ -13,7 +13,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 116 (43), 21834-21842,
     2019
-  date: '2019-10-22'
+  date: '2019'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ufrVoPGSRksC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -74,23 +74,6 @@
     2021
   date: '2021-12-14'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:UebtZRa9Y70C
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1016/j.jneumeth.2018.06.021
-  title: Data-driven re-referencing of intracranial EEG based on independent component
-    analysis (ICA)
-  authors:
-  - S Michelmann
-  - MS Treder
-  - B Griffiths
-  - "C Kerr\xE9n"
-  - F Roux
-  - M Wimber
-  - '...'
-  publisher: Journal of neuroscience methods 307, 125-137, 2018
-  date: 2018-09
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:zYLM7Y9cAGgC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -178,6 +161,19 @@
   publisher: Journal of cognitive neuroscience 30 (11), 1577-1589, 2018
   date: 2018-11
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1111/psyp.12822
+  title: Learning processes underlying avoidance of negative outcomes
+  authors:
+  - M Andreatta
+  - S Michelmann
+  - P Pauli
+  - J Hewig
+  publisher: Psychophysiology 54 (4), 578-590, 2017
+  date: 2017-04
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
