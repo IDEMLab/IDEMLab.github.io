@@ -1,6 +1,9 @@
 import os
 import re
 import requests
+import json
+from urllib.request import Request, urlopen
+from urllib.parse import quote
 from serpapi import GoogleSearch
 from util import *
 
@@ -16,7 +19,6 @@ def get_doi_and_date_from_title(title):
             item = items[0]
             doi = item.get("DOI", "")
 
-            # Prefer print date, fall back to online date
             date_parts = (
                 item.get("published-print", {}).get("date-parts")
                 or item.get("published-online", {}).get("date-parts")
@@ -45,12 +47,26 @@ def get_doi_and_date_from_title(title):
     return None, ""
 
 
-def main(entry):
-    """
-    Receives single list entry from google-scholar data file
-    Returns list of sources to cite
-    """
+def get_pubmed_date_from_doi(doi):
+    """Search PubMed for DOI and return date if available."""
+    try:
+        search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={quote(doi)}[aid]&retmode=json"
+        result = json.loads(urlopen(Request(url=search_url)).read())
+        pmid_list = result.get("esearchresult", {}).get("idlist", [])
+        if not pmid_list:
+            return ""
 
+        pmid = pmid_list[0]
+        summary_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid}&retmode=json"
+        data = json.loads(urlopen(Request(url=summary_url)).read())
+        summary = data.get("result", {}).get(pmid, {})
+        return summary.get("pubdate", "").replace(" ", "-")
+    except Exception as e:
+        log(f"PubMed date lookup failed: {e}", level="WARNING")
+        return ""
+
+
+def main(entry):
     api_key = os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
     if not api_key:
         raise Exception('No "GOOGLE_SCHOLAR_API_KEY" env var')
@@ -79,11 +95,9 @@ def main(entry):
         title = get_safe(work, "title", "")
         year = get_safe(work, "year", "").strip()
 
-        # Get DOI and structured publication date from CrossRef
         doi, crossref_date = get_doi_and_date_from_title(title)
+
         gs_date_raw = get_safe(work, "year", "").strip().replace(" ", "")
-        
-        # Convert Google Scholar date (e.g., "2020/9/1") into ISO
         match = re.match(r"^(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?$", gs_date_raw)
         if match:
             y, m, d = match.groups()
@@ -95,15 +109,14 @@ def main(entry):
                 gs_date = y
         else:
             gs_date = gs_date_raw
-        
-        # Use the date with more specificity
+
+        pubmed_date = get_pubmed_date_from_doi(doi) if doi and not crossref_date else ""
+
         def date_specificity(date_str):
-            return date_str.count("-")  # 0: year, 1: year-month, 2: full date
-        
-        if gs_date and (date_specificity(gs_date) > date_specificity(crossref_date)):
-            formatted_date = gs_date
-        else:
-            formatted_date = crossref_date or gs_date
+            return date_str.count("-")
+
+        date_candidates = [gs_date, crossref_date, pubmed_date]
+        formatted_date = max(date_candidates, key=date_specificity)
 
         source = {
             "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
