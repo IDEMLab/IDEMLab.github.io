@@ -156,13 +156,18 @@ for index, source in enumerate(sources):
     # preserve fields from input source, overriding existing fields
     citation.update(source)
 
-    # Preserve full date
+    # Preserve full date unless preprint
+    publisher = get_safe(citation, "publisher", "").lower()
     full_date = get_safe(citation, "date", "").strip()
-    citation["date"] = full_date
     
-    # Extract year for sorting/grouping
-    match = re.match(r"^(\d{4})", full_date)
-    citation["sort_date"] = match.group(1) if match else "0000"
+    # Special handling for bioRxiv
+    if "biorxiv" in publisher:
+        citation["sort_date"] = "Preprints"
+        citation.pop("date", None)  # remove the date field entirely
+    else:
+        citation["date"] = full_date
+        match = re.match(r"^(\d{4})", full_date)
+        citation["sort_date"] = match.group(1) if match else "0000"
             
     # add new citation to list
     citations.append(citation)
