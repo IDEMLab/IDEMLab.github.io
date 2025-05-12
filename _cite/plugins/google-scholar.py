@@ -1,48 +1,22 @@
 import os
-import re
 import requests
 from serpapi import GoogleSearch
 from util import *
+import re
 
 
-def get_doi_and_date_from_title(title):
-    """Query CrossRef API for DOI and best-available ISO date from a title."""
+def get_doi_from_title(title):
+    """Query CrossRef API for a DOI based on the paper title."""
     url = "https://api.crossref.org/works"
     params = {"query.title": title, "rows": 1}
     try:
         response = requests.get(url, params=params, timeout=10)
         items = response.json().get("message", {}).get("items", [])
         if items:
-            item = items[0]
-            doi = item.get("DOI", "")
-
-            # Prefer print date, fall back to online date
-            date_parts = (
-                item.get("published-print", {}).get("date-parts")
-                or item.get("published-online", {}).get("date-parts")
-                or []
-            )
-
-            if date_parts and len(date_parts[0]) >= 1:
-                parts = date_parts[0]
-                year = str(parts[0])
-                month = f"{parts[1]:02d}" if len(parts) > 1 else None
-                day = f"{parts[2]:02d}" if len(parts) > 2 else None
-
-                if month and day:
-                    pub_date = f"{year}-{month}-{day}"
-                elif month:
-                    pub_date = f"{year}-{month}"
-                else:
-                    pub_date = year
-            else:
-                pub_date = ""
-
-            return doi, pub_date
+            return items[0].get("DOI", "")
     except Exception as e:
-        log(f"CrossRef DOI/date lookup failed: {e}", level="WARNING")
-
-    return None, ""
+        log(f"CrossRef DOI lookup failed: {e}", level="WARNING")
+    return None
 
 
 def main(entry):
@@ -76,27 +50,24 @@ def main(entry):
     sources = []
 
     for work in response:
+        year = get_safe(work, "year", "")
         title = get_safe(work, "title", "")
-        gs_raw_date = get_safe(work, "year", "").strip()
 
-        # Get DOI and structured publication date from CrossRef
-        doi, crossref_date = get_doi_and_date_from_title(title)
-
-        # Fallback: Try to parse Google Scholar's YYYY/M or YYYY/M/D into ISO
-        if not crossref_date:
-            match = re.match(r"^(\d{4})(?:/(\d{1,2}))?(?:/(\d{1,2}))?$", gs_raw_date)
-            if match:
-                y, m, d = match.groups()
-                if d:
-                    formatted_date = f"{y}-{int(m):02d}-{int(d):02d}"
-                elif m:
-                    formatted_date = f"{y}-{int(m):02d}"
-                else:
-                    formatted_date = y
-            else:
-                formatted_date = gs_raw_date if gs_raw_date else ""
+        # Format raw date into ISO format (YYYY, YYYY-MM, or YYYY-MM-DD)
+        date_str = year.strip() if year else ""
+        if re.fullmatch(r"\d{4}", date_str):
+            formatted_date = date_str
+        elif re.fullmatch(r"\d{4}/\d{1,2}", date_str):
+            y, m = date_str.split("/")
+            formatted_date = f"{y}-{int(m):02d}"
+        elif re.fullmatch(r"\d{4}/\d{1,2}/\d{1,2}", date_str):
+            y, m, d = date_str.split("/")
+            formatted_date = f"{y}-{int(m):02d}-{int(d):02d}"
         else:
-            formatted_date = crossref_date
+            formatted_date = date_str  # fallback if unexpected format
+
+        # Try to get a Manubot-compatible DOI
+        doi = get_doi_from_title(title)
 
         source = {
             "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
