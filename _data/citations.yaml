@@ -108,12 +108,12 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2020'
+  date: '2025-05-12'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-  sort_date: '2020'
+  sort_date: '2025'
 - id: doi:10.1101/2020.12.09.416438
   title: Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical
     interactions
@@ -157,7 +157,7 @@
   - L Hasenfratz
   - '...'
   publisher: Neuron 112 (18), 3211-3222. e5, 2024
-  date: '2024-08-02'
+  date: '2024-09'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4DMP91E08xMC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -436,12 +436,12 @@
   - B GRIFFITHS
   - S HANSLMAYR
   publisher: The Oxford Handbook of EEG Frequency, 2022
-  date: '2023-06'
+  date: '2018-09-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-  sort_date: '2023'
+  sort_date: '2018'
 - id: doi:10.1016/s1051-0443(04)70059-7
   title: What determines when we store and retrieve memories under naturalistic conditions?
     And how does the brain do it?
