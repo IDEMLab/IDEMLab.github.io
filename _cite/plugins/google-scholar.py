@@ -118,6 +118,12 @@ def main(entry):
 
         date_candidates = [gs_date, crossref_date, pubmed_date]
         formatted_date = max(date_candidates, key=date_specificity)
+                # Debug print
+        print("\n📄 TITLE:", title)
+        print("🔹 Google Scholar date:", gs_date)
+        print("🔹 CrossRef date:", crossref_date)
+        print("🔹 PubMed date:", pubmed_date)
+        print("🔸 Chosen date:", formatted_date)
 
         source = {
             "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
