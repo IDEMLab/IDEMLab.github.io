@@ -11,26 +11,7 @@
 <div class="citation-container">
   <div class="citation">
 
-    {% comment %}
     {% if include.style == "rich" %}
-      <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url }}"
-        {% endif %}
-        class="citation-image"
-        aria-label="{{ citation.title | default: "citation link" }}"
-      >
-        <img
-          src="{{ citation.image | relative_url }}"
-          alt="{{ citation.title | default: "citation image" }}"
-          loading="lazy"
-          {% include fallback.html %}
-        >
-      </a>
-    {% endif %}
-    {% endcomment %}
-    
-    {% if include.style == "rich" and citation.image %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url }}"
