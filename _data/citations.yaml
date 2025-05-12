@@ -372,7 +372,7 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
 - id: doi:10.1101/2025.02.14.638352
-  title: The" Podcast" ECoG dataset for modeling neural activity during natural language
+  title: The Podcast ECoG dataset for modeling neural activity during natural language
     comprehension
   authors:
   - Z Zada
