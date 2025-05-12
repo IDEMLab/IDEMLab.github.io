@@ -18,19 +18,16 @@ def get_doi_and_date_from_title(title):
         if items:
             item = items[0]
             doi = item.get("DOI", "")
-
             date_parts = (
                 item.get("published-print", {}).get("date-parts")
                 or item.get("published-online", {}).get("date-parts")
                 or []
             )
-
             if date_parts and len(date_parts[0]) >= 1:
                 parts = date_parts[0]
                 year = str(parts[0])
                 month = f"{parts[1]:02d}" if len(parts) > 1 else None
                 day = f"{parts[2]:02d}" if len(parts) > 2 else None
-
                 if month and day:
                     pub_date = f"{year}-{month}-{day}"
                 elif month:
@@ -39,16 +36,15 @@ def get_doi_and_date_from_title(title):
                     pub_date = year
             else:
                 pub_date = ""
-
             return doi, pub_date
     except Exception as e:
         log(f"CrossRef DOI/date lookup failed: {e}", level="WARNING")
-
     return None, ""
 
+from datetime import datetime
 
 def get_pubmed_date_from_title(title):
-    """Search PubMed for a paper title and return its publication date."""
+    """Search PubMed using article title and return ISO-formatted epubdate if available."""
     try:
         search_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term={quote(title)}&retmode=json"
         result = json.loads(urlopen(Request(url=search_url)).read())
@@ -60,14 +56,29 @@ def get_pubmed_date_from_title(title):
         summary_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={pmid}&retmode=json"
         data = json.loads(urlopen(Request(url=summary_url)).read())
         summary = data.get("result", {}).get(pmid, {})
-        return summary.get("pubdate", "").replace(" ", "-")
+        epubdate = summary.get("epubdate", "")
+        if not epubdate:
+            return ""
+
+        # Convert "2016 Aug 5" or "2016 Aug" → ISO format
+        try:
+            if re.match(r"^\d{4} [A-Za-z]+ \d{1,2}$", epubdate):
+                dt = datetime.strptime(epubdate, "%Y %b %d")
+                return dt.strftime("%Y-%m-%d")
+            elif re.match(r"^\d{4} [A-Za-z]+$", epubdate):
+                dt = datetime.strptime(epubdate, "%Y %b")
+                return dt.strftime("%Y-%m")
+            elif re.match(r"^\d{4}$", epubdate):
+                return epubdate
+        except Exception:
+            return ""
     except Exception as e:
-        log(f"PubMed date lookup failed: {e}", level="WARNING")
-        return ""
+        log(f"PubMed title search failed: {e}", level="WARNING")
+
+    return ""
 
 
 def main(entry):
-    print("🔍 INPUT ENTRY:", json.dumps(entry, indent=2))  
     api_key = os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
     if not api_key:
         raise Exception('No "GOOGLE_SCHOLAR_API_KEY" env var')
@@ -111,19 +122,15 @@ def main(entry):
         else:
             gs_date = gs_date_raw
 
-        pubmed_date = get_pubmed_date_from_doi(doi) if doi and not crossref_date else ""
+        pubmed_date = get_pubmed_date_from_title(title)
 
         def date_specificity(date_str):
             return date_str.count("-")
 
         date_candidates = [gs_date, crossref_date, pubmed_date]
         formatted_date = max(date_candidates, key=date_specificity)
-                # Debug print
-        print("\n📄 TITLE:", title)
-        print("🔹 Google Scholar date:", gs_date)
-        print("🔹 CrossRef date:", crossref_date)
-        print("🔹 PubMed date:", pubmed_date)
-        print("🔸 Chosen date:", formatted_date)
+
+        log(f"\nTitle: {title}\n  GS: {gs_date}\n  CrossRef: {crossref_date}\n  PubMed: {pubmed_date}\n  -> Selected: {formatted_date}")
 
         source = {
             "id": f"doi:{doi}" if doi else get_safe(work, "citation_id", ""),
@@ -136,5 +143,5 @@ def main(entry):
 
         source.update(entry)
         sources.append(source)
-    print("✅ OUTPUT SOURCES:", json.dumps(sources, indent=2)) 
+
     return sources
