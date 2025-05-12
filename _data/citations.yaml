@@ -353,7 +353,7 @@
   - C Strauss
   - '...'
   publisher: bioRxiv, 2025.02. 11.637471, 2025
-  date: '2025'
+  date: ''
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:QIV2ME_5wuYC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -434,7 +434,7 @@
   authors:
   - S Michelmann
   publisher: University of Birmingham, 2018
-  date: '2015'
+  date: '2018'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Tyk-4Ss8FVUC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
