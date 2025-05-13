@@ -49,6 +49,7 @@
           {{- citation.publisher | default: "[no publisher info]" -}}
         </span>
         &nbsp;·&nbsp;
+        {% comment %}
        <span class="citation-date">
           {% assign parts = citation.date | split: "-" %}
           {% case parts.size %}
@@ -65,6 +66,7 @@
               {{ "" }}
           {% endcase %}
         </span>
+        {% endcomment %}
         &nbsp;·&nbsp;
         <span class="citation-id">
           {{- citation.id | default: "[no id info]" -}}
