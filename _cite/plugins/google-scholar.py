@@ -138,6 +138,7 @@ def main(entry):
             "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
             "publisher": get_safe(work, "publication", ""),
             "date": formatted_date,
+            "sort_date": year,  # ← year from Google Scholar
             "link": get_safe(work, "link", ""),
         }
 
