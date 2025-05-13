@@ -5,6 +5,13 @@
   | data_filter: include.filters
 %}
 
+<!-- Debug output to check sort_date values -->
+{% for d in data %}
+  <p>{{ d.title }} — sort_date: {{ d.sort_date }}</p>
+{% endfor %}
+
+{%- assign grouped = data | group_by: "sort_date" -%}
+{%- assign preprints = grouped | where: "name", "Preprints" -%}
 {%- assign grouped = data | group_by: "sort_date" -%}
 {%- assign preprints = grouped | where: "name", "Preprints" -%}
 {%- assign other_years = grouped | reject: "name", "Preprints" | sort: "name" | reverse -%}
