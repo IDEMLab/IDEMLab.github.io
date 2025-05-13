@@ -108,12 +108,12 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2020'
+  date: '2025-05-12'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-  sort_date: '2020'
+  sort_date: '2025'
 - id: doi:10.1101/2020.12.09.416438
   title: Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical
     interactions
@@ -139,7 +139,7 @@
   - U Hasson
   - KA Norman
   publisher: Psychological Science, 09567976221128206, 2023
-  date: '2023-03'
+  date: '2023-01-03'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_kc_bZDykSQC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -187,7 +187,7 @@
   - H Bowman
   - S Hanslmayr
   publisher: Journal of cognitive neuroscience 30 (11), 1577-1589, 2018
-  date: '2018-11'
+  date: '2018-07-13'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -201,12 +201,12 @@
   - P Pauli
   - J Hewig
   publisher: Psychophysiology 54 (4), 578-590, 2017
-  date: '2025-02-11'
+  date: '2017-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-  sort_date: '2025'
+  sort_date: '2017'
 - id: doi:10.3758/s13428-024-02569-z
   title: Large language models can segment narrative events similarly to humans
   authors:
@@ -281,7 +281,7 @@
   - B Staresina
   - '...'
   publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
-  date: '2021-06-14'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -436,12 +436,12 @@
   - B GRIFFITHS
   - S HANSLMAYR
   publisher: The Oxford Handbook of EEG Frequency, 2022
-  date: '2023-06'
+  date: '2018-09-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-  sort_date: '2023'
+  sort_date: '2018'
 - id: doi:10.1016/s1051-0443(04)70059-7
   title: What determines when we store and retrieve memories under naturalistic conditions?
     And how does the brain do it?
