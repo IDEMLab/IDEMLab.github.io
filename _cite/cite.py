@@ -160,14 +160,15 @@ for index, source in enumerate(sources):
     publisher = get_safe(citation, "publisher", "").lower()
     full_date = get_safe(citation, "date", "").strip()
     
-    # Special handling for bioRxiv
+   # Special handling for bioRxiv
     if "biorxiv" in publisher:
         citation["sort_date"] = "Preprints"
         citation.pop("date", None)  # remove the date field entirely
     else:
         citation["date"] = full_date
-        match = re.match(r"^(\d{4})", full_date)
-        citation["sort_date"] = match.group(1) if match else "0000"
+        if "sort_date" not in citation or not citation["sort_date"] or not citation["sort_date"].isdigit():
+            match = re.match(r"^(\d{4})", full_date)
+            citation["sort_date"] = match.group(1) if match else "0000"
             
     # add new citation to list
     citations.append(citation)
