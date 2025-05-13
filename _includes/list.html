@@ -6,13 +6,22 @@
 %}
 
 {%- assign grouped = data | group_by: "sort_date" -%}
-{%- assign preprints = grouped | where: "name", "Preprints" -%}
+
+{%- assign preprints = grouped | where: "name", "Preprints" | first -%}
 {%- assign others = grouped | reject: "name", "Preprints" | sort: "name" | reverse -%}
-{%- assign years = preprints | concat: others -%}
+
+{% if preprints %}
+  {% assign years = preprints | append: ',' | append: others %}
+{% else %}
+  {% assign years = others %}
+{% endif %}
+
+{% assign years = years | split: ',' %}
 
 {% for year in years %}
-  {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
   {% assign data = year.items | sort: "date" | reverse %}
+
+  {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
