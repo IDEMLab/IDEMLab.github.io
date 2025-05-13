@@ -6,58 +6,51 @@
 %}
 
 {%- assign grouped = data | group_by: "sort_date" -%}
+{%- assign preprints = grouped | where: "name", "Preprints" -%}
+{%- assign other_years = grouped | reject: "name", "Preprints" | sort: "name" | reverse -%}
+{%- assign sorted_years = preprints | concat: other_years -%}
 
-{%- assign preprints = grouped | where: "name", "Preprints" | first -%}
-{%- assign others = grouped | reject: "name", "Preprints" | sort: "name" | reverse -%}
-
-{% if preprints %}
-  {% assign years = preprints | append: ',' | append: others %}
-{% else %}
-  {% assign years = others %}
-{% endif %}
-
-{% assign years = years | split: ',' %}
-
-{% for year in years %}
-  {% assign data = year.items | sort: "date" | reverse %}
-
-  {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
-
-  {% for d in data %}
-    {% assign style = d.style | default: include.style %}
-
-    {%
-      include {{ include.component | append: ".html" }}
-      affiliation=d.affiliation
-      author=d.author
-      authors=d.authors
-      buttons=d.buttons
-      caption=d.caption
-      content=d.content
-      date=d.date
-      description=d.description
-      excerpt=d.excerpt
-      height=d.height
-      icon=d.icon
-      id=d.id
-      image=d.image
-      last_modified_at=d.last_modified_at
-      link=d.link
-      lookup=d.lookup
-      name=d.name
-      publisher=d.publisher
-      repo=d.repo
-      role=d.role
-      slug=d.slug
-      style=style
-      subtitle=d.subtitle
-      tags=d.tags
-      text=d.text
-      title=d.title
-      tooltip=d.tooltip
-      type=d.type
-      url=d.url
-      width=d.width
-    %}
-  {% endfor %}
+{% for group in sorted_years %}
+  {% assign year = group.name %}
+  {% assign entries = group.items %}
+  {% if entries %}
+    <h3 id="{{ year }}">{{ year }}</h3>
+    {% assign entries = entries | sort: "date" | reverse %}
+    {% for d in entries %}
+      {% assign style = d.style | default: include.style %}
+      {%
+        include {{ include.component | append: ".html" }}
+        affiliation=d.affiliation
+        author=d.author
+        authors=d.authors
+        buttons=d.buttons
+        caption=d.caption
+        content=d.content
+        date=d.date
+        description=d.description
+        excerpt=d.excerpt
+        height=d.height
+        icon=d.icon
+        id=d.id
+        image=d.image
+        last_modified_at=d.last_modified_at
+        link=d.link
+        lookup=d.lookup
+        name=d.name
+        publisher=d.publisher
+        repo=d.repo
+        role=d.role
+        slug=d.slug
+        style=style
+        subtitle=d.subtitle
+        tags=d.tags
+        text=d.text
+        title=d.title
+        tooltip=d.tooltip
+        type=d.type
+        url=d.url
+        width=d.width
+      %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
