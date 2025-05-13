@@ -14,7 +14,7 @@
   {% assign year = group.name %}
   {% assign entries = group.items %}
   {% if entries %}
-    <h3 id="{{ year }}">{{ year }}</h3>
+    {{--}}<h3 id="{{ year }}">{{ year }}</h3>
     {% assign entries = entries | sort: "date" | reverse %}
     {% for d in entries %}
       {% assign style = d.style | default: include.style %}
