@@ -8,7 +8,7 @@
 {%- assign grouped = data | group_by: "sort_date" -%}
 {%- assign preprints = grouped | where: "name", "Preprints" -%}
 {%- assign other_years = grouped | reject: "name", "Preprints" | sort: "name" | reverse -%}
-{%- assign sorted_years = preprints | concat: other_years -%}
+{%- assign sorted_years = preprints | concat: other_years | uniq -%}
 
 {% for group in sorted_years %}
   {% assign year = group.name %}
