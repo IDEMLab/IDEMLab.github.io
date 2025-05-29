@@ -1,6 +1,6 @@
 ---
 name: Vicky Ling
-image: images/vicky-ling.png
+image: /images/vicky-ling.png
 role: undergrad
 links:
   email: yl10096@nyu.edu
