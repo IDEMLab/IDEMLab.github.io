@@ -1,6 +1,6 @@
 ---
 name: Olivia Christiano
-image: images/olivia-christiano.png
+image: /images/olivia-christiano.png
 role: labmanager
 links:
   email: olivia.christiano@nyu.edu
