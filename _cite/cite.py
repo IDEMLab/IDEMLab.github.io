@@ -161,7 +161,7 @@ for index, source in enumerate(sources):
     full_date = get_safe(citation, "date", "").strip()
     
    # Special handling for bioRxiv
-    if "biorxiv" in publisher or "arxiv" in publisher:
+    if "biorxiv" in publisher:
         citation["sort_date"] = "Preprints"
         citation.pop("date", None)  # remove the date field entirely
     else:
