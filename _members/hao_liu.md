@@ -1,6 +1,6 @@
 ---
 name: Hao Liu
-image: images/hao_liu.png
+image: /images/hao_liu.png
 role: masters
 links:
   email: hl4220@nyu.edu
