@@ -1,6 +1,6 @@
 ---
 name: Patrick Peiyu He
-image: images/patrick_he.png
+image: /images/patrick_he.png
 role: undergrad
 links:
   email: ph2282@nyu.edu
