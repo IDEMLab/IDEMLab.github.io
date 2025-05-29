@@ -1,6 +1,6 @@
 ---
 name: Nikita Sossounov 
-image: images/nikita-sossounov.png
+image: /images/nikita-sossounov.png
 role: labmanager
 group: alum
 links:
