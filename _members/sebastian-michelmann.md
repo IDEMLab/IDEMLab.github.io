@@ -1,6 +1,6 @@
 ---
 name: Sebastian Michelmann
-image: images/sebastian-michelmann.png
+image: /images/sebastian-michelmann.png
 role: pi
 affiliation: 
 aliases:
