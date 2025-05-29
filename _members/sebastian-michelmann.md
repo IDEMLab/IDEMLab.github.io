@@ -12,6 +12,7 @@ links:
   twitter: s_michelmann
   website: https://s-michelmann.github.io/
 ---
+
 In my research, I ask how the continuous, temporally dynamic content that we encounter in the world is neurally represented, and what mechanisms and computational principles support its encoding and retrieval. For example, when humming a melody that we only heard once, our brain reproduces patterns from memory with high temporal accuracy that consequently need to be neurally represented. On the other hand, when remembering where we placed our keys, we can quickly sift through long memories that may be full of irrelevant information, i.e., memory search is much faster than the original experience. How can we reconcile such fast memory scanning with temporally accurate representations?
 
 When memories are formed and retrieved under unconstrained conditions (i.e., without an explicit study phase or test phase), neural processes also need to be carefully timed to the incoming flow of information. Therein, fast neural activity is orchestrated over long time scales. How are fast-lived memory processes embedded into our continuous experience? For instance, how does the brain decide when it is time to store and retrieve information when there is no explicit study or test phase?
