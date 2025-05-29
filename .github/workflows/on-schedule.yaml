@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  id-token: write
 
 jobs:
   update-citations:
@@ -20,6 +21,8 @@ jobs:
     uses: ./.github/workflows/update-citations.yaml
     with:
       open-pr: true
+    secrets:
+      GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
 
   build-preview:
     needs: update-citations
