@@ -1,6 +1,6 @@
 ---
 name: Catherine Chen
-image: images/catherine-chen.png
+image: /images/catherine-chen.png
 role: masters
 links:
   email: sc10668@nyu.edu
