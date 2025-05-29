@@ -1,6 +1,6 @@
 ---
 name: Yuyang Xu
-image: images/yuyang_xu.png
+image: /images/yuyang_xu.png
 role: undergrad
 links:
   email: yx2227@nyu.edu
