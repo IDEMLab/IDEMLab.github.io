@@ -161,7 +161,7 @@ for index, source in enumerate(sources):
     full_date = get_safe(citation, "date", "").strip()
     
    # Special handling for bioRxiv
-    if "biorxiv" or "arxiv" in publisher:
+    if "biorxiv" in publisher or "arxiv" in publisher:
         citation["sort_date"] = "Preprints"
         citation.pop("date", None)  # remove the date field entirely
     else:
@@ -171,7 +171,7 @@ for index, source in enumerate(sources):
             citation["sort_date"] = match.group(1) if match else "0000"
             
     # FIX THE NEURIPS ONE
-     if "Latinx" in publisher:
+    if "latinx" in publisher:
         citation["publisher"] = "Latinx in AI@ NeurIPS, 2024"
 
     # add new citation to list
