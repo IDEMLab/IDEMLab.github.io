@@ -65,7 +65,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/2020.05.20.104539
+- id: doi:10.1073/pnas.2114171118
   title: The hippocampus as the switchboard between perception and memory
   authors:
   - MS Treder
@@ -76,7 +76,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 118 (50), e2114171118,
     2021
-  date: '2021'
+  date: '2021-12-14'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:UebtZRa9Y70C
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -160,6 +160,23 @@
   date: '2024-08-02'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4DMP91E08xMC
   sort_date: '2024'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1111/cogs.13343
+  title: Event Segmentation In Story Listening Using Deep Language Models
+  authors:
+  - M Kumar
+  - A Goldstein
+  - S Michelmann
+  - JM Zacks
+  - K Norman
+  - U Hasson
+  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
+    (44), 2022
+  date: '2023-10'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
+  sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -425,23 +442,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1111/cogs.13343
-  title: Event Segmentation In Story Listening Using Deep Language Models
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - K Norman
-  - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
-  date: '2023-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
-  sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1016/s1051-0443(04)70059-7
   title: What determines when we store and retrieve memories under naturalistic conditions?
     And how does the brain do it?
@@ -463,6 +463,25 @@
   date: '2018'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Tyk-4Ss8FVUC
   sort_date: '2018'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1109/aece62803.2024.10911393
+  title: Testing Memory Capabilities in Large Language Models with the Sequence Order
+    Recall Task
+  authors:
+  - M Pink
+  - VA Vo
+  - Q Wu
+  - J Mu
+  - JS Turek
+  - U Hasson
+  - KA Norman
+  - '...'
+  publisher: Latinx in AI@ NeurIPS, 2024
+  date: '2024-11-22'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mVmsd5A6BfQC
+  sort_date: '2024'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
