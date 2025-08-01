@@ -6,4 +6,4 @@ links:
   email: yx2227@nyu.edu
 ---
 
-Yuyang is an undergraduate student at NYU interested in understanding how large language models can perform event segmentation similar to humans. He is broadly interested in AI interpretability and neural network modeling as well.
+Yuyang is a master's student at NYU, where he also completed his undergraduate degree. He is interested in understanding how large language models can perform event segmentation similar to humans. He is broadly interested in AI interpretability and neural network modeling as well. 
