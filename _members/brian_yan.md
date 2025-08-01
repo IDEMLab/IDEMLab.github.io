@@ -1,7 +1,8 @@
 ---
 name: Brian Yan
 image: /images/brian_yan.png
-role: research-volunteer
+role: undergrad
+description: Research Volunteer
 links:
   email: by2139@nyu.edu>
 ---
