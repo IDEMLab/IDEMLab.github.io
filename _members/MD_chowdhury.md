@@ -1,7 +1,8 @@
 ---
 name: MD Chowdhury
 image: /images/md_chowdhury.png
-role: research-volunteer
+role: undergrad
+description: Research Volunteer
 links:
   email: mc8619@nyu.edu
 ---
