@@ -2,6 +2,7 @@
 name: Adwoa Amponsah
 image: /images/adwoa_amponsah.png
 role: undergrad
+date: 2024-01-01 03:00
 links:
   email: kaa9627@nyu.edu
 ---
