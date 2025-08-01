@@ -82,7 +82,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.jneumeth.2018.06.021
+- id: doi:10.1101/150045
   title: Data-driven re-referencing of intracranial EEG based on independent component
     analysis (ICA)
   authors:
@@ -132,145 +132,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.neuron.2024.06.025
-  title: A shared model-based linguistic space for transmitting our thoughts from
-    brain to brain in natural conversations
-  authors:
-  - Z Zada
-  - A Goldstein
-  - S Michelmann
-  - E Simony
-  - A Price
-  - L Hasenfratz
-  - '...'
-  publisher: Neuron 112 (18), 3211-3222. e5, 2024
-  date: '2024-08-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4DMP91E08xMC
-  sort_date: '2024'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1177/09567976221128206
-  title: Evidence That Event Boundaries Are Access Points for Memory Retrieval
-  authors:
-  - S Michelmann
-  - U Hasson
-  - KA Norman
-  publisher: Psychological Science, 09567976221128206, 2023
-  date: '2023-01-03'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_kc_bZDykSQC
-  sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1111/cogs.13343
-  title: Event Segmentation In Story Listening Using Deep Language Models
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - K Norman
-  - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
-  date: '2023-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
-  sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1162/jocn_a_01304
-  title: Replay of Stimulus-specific Temporal Patterns during Associative Memory Formation
-  authors:
-  - S Michelmann
-  - H Bowman
-  - S Hanslmayr
-  publisher: Journal of cognitive neuroscience 30 (11), 1577-1589, 2018
-  date: '2018-07-13'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
-  sort_date: '2018'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.3758/s13428-024-02569-z
-  title: Large language models can segment narrative events similarly to humans
-  authors:
-  - S Michelmann
-  - M Kumar
-  - KA Norman
-  - M Toneva
-  publisher: Behavior Research Methods 57 (1), 39, 2025
-  date: '2025-01-03'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4TOpqqG69KYC
-  sort_date: '2025'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1111/psyp.12822
-  title: Learning processes underlying avoidance of negative outcomes
-  authors:
-  - M Andreatta
-  - S Michelmann
-  - P Pauli
-  - J Hewig
-  publisher: Psychophysiology 54 (4), 578-590, 2017
-  date: '2025-05-27'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
-  sort_date: '2017'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1101/2022.12.21.521184
-  title: 'Test-retest reliability of the human connectome: An OPM-MEG study'
-  authors:
-  - L Rier
-  - S Michelmann
-  - H Ritz
-  - V Shah
-  - RM Hill
-  - J Osborne
-  - C Doyle
-  - '...'
-  publisher: Imaging Neuroscience 1, 1-20, 2023
-  date: '2023'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
-  sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1093/oxfordhb/9780192898340.013.10
-  title: The role of alpha and beta oscillations in the human EEG during perception
-    and memory processes
-  authors:
-  - S Michelmann
-  - B Griffiths
-  - S Hanslmayr
-  publisher: The Oxford handbook of EEG frequency, 202-219, 2022
-  date: '2022-09-21'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Zph67rFs4hoC
-  sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.31219/osf.io/sbrg7
-  title: 'RT-Cloud: a cloud-based software framework to simplify and standardize real-time
-    fMRI'
-  authors:
-  - G Wallace
-  - S Polcyn
-  - PP Brooks
-  - AC Mennen
-  - K Zhao
-  - PS Scotti
-  - '...'
-  publisher: NeuroImage 257, 119295, 2022
-  date: '2022-05-14'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:MXK_kJrjxJIC
-  sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1101/715276
   title: EEG and fMRI evidence for autobiographical memory reactivation in empathy
   authors:
@@ -281,68 +142,9 @@
   - B Staresina
   - '...'
   publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
-  date: '2021-06-14'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
   sort_date: '2021'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1016/j.neuropsychologia.2021.107867
-  title: 'The Sync-Fire/deSync model: Modelling the reactivation of dynamic memories
-    from cortical alpha oscillations'
-  authors:
-  - G Parish
-  - S Michelmann
-  - S Hanslmayr
-  - H Bowman
-  publisher: Neuropsychologia 158, 107867, 2021
-  date: '2021-04-24'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:0EnyYjriUFMC
-  sort_date: '2021'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1007/978-3-030-31635-8_229
-  title: Classification of P300 component using a riemannian ensemble approach
-  authors:
-  - "D Krzemi\u0144ski"
-  - S Michelmann
-  - M Treder
-  - L Santamaria
-  publisher: "Mediterranean Conference on Medical and Biological Engineering and Computing\
-    \ \u2026, 2019"
-  date: '2019'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_FxGoFyzp5QC
-  sort_date: '2019'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1016/j.actpsy.2024.104240
-  title: Post-hypnotic suggestion improves confidence and speed of memory access with
-    long-lasting effects
-  authors:
-  - B Schmidt
-  - "J B\xF6hmer"
-  - M Schnuerch
-  - T Koch
-  - S Michelmann
-  publisher: Acta Psychologica 245, 104240, 2024
-  date: '2024-04-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:aqlVkmm33-oC
-  sort_date: '2024'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1007/978-3-031-20910-9_28
-  title: How Should I Re-reference My Intracranial EEG Data?
-  authors:
-  - GM Parish
-  - S Michelmann
-  - S Hanslmayr
-  publisher: 'Intracranial EEG: A Guide for Cognitive Neuroscientists, 451-473, 2023'
-  date: '2023'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:M3ejUd6NZC8C
-  sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -444,21 +246,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/2025.07.17.665290
-  title: 'Perspective matters: using past experiences to understand others'' insensitivity
-    to physical pain.'
-  authors:
-  - F Meconi
-  - M Canducci
-  - S Michelmann
-  - A Grecucci
-  - I Sperandio
-  publisher: bioRxiv, 2025.07. 17.665290, 2025
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:IWHjjKOFINEC
-  sort_date: Preprints
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1101/2025.07.14.664811
   title: Reliability and signal comparison of OPM-MEG, fMRI & iEEG in a repeated movie
     viewing paradigm
@@ -480,6 +267,23 @@
   publisher: The Oxford Handbook of EEG Frequency, 2022
   date: '2025-07-21'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
+  sort_date: '2022'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1111/cogs.13343
+  title: Event Segmentation In Story Listening Using Deep Language Models
+  authors:
+  - M Kumar
+  - A Goldstein
+  - S Michelmann
+  - JM Zacks
+  - K Norman
+  - U Hasson
+  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
+    (44), 2022
+  date: '2023-10'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
