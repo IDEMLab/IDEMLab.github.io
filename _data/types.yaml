@@ -26,6 +26,9 @@ mascot:
 labmanager:
   description: Lab Manager
 
+volunteer:
+  description: Research Volunteer
+
 alumni:
   description: Alumnus 
 
