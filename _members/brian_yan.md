@@ -2,7 +2,7 @@
 name: Brian Yan
 image: /images/brian_yan.png
 role: volunteer
-date: 2024-01-01 02:00
+date: 2024-01-04
 links:
   email: by2139@nyu.edu>
 ---
