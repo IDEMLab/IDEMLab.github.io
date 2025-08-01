@@ -3,6 +3,7 @@ name: Vicky Ling
 image: /images/vicky-ling.png
 role: undergrad
 description: Undergraduate Student, MEG Lab Manager
+date: 2024-01-01 04:00
 links:
   email: yl10096@nyu.edu
 ---
