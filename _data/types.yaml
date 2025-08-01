@@ -26,6 +26,9 @@ mascot:
 labmanager:
   description: Lab Manager
 
+research-volunteer:
+  description: Research Volunteer
+
 # general
 
 link:
