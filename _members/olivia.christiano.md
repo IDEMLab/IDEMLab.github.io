@@ -1,7 +1,8 @@
 ---
 name: Olivia Christiano
 image: /images/olivia-christiano.png
-role: labmanager
+role: alumni
+description: Former Lab Manager, now PhD Student at Yale
 links:
   email: olivia.christiano@nyu.edu
   twitter: livchristiano3
