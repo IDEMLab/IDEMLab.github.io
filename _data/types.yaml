@@ -29,6 +29,9 @@ labmanager:
 research-volunteer:
   description: Research Volunteer
 
+alumni:
+  description: Alumnus
+
 # general
 
 link:
