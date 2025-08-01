@@ -7,4 +7,4 @@ links:
 ---
 
 
-Catherine received her B.S. in Mathematics and Statistics from UCLA and her M.S. from NYU’s Center for Data Science. Her research interests focus on the intersection of machine learning, natural language processing, and episodic memory, with an emphasis on data-driven methods for understanding human memory and narrative recall. Outside of academics, she enjoys reading detective fiction, shooting film photography, and baking.
+Catherine received her B.S. in Mathematics and Statistics from UCLA and her M.S. from NYU’s Center for Data Science. Her research interests focus on the intersection of machine learning, natural language processing, and episodic memory, with an emphasis on data-driven methods for understanding human memory and narrative recall. Outside of academics, she enjoys detective fiction and photography.
