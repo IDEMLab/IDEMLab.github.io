@@ -150,14 +150,14 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1177/09567976221128206
+- id: doi:10.31234/osf.io/k8j94
   title: Evidence That Event Boundaries Are Access Points for Memory Retrieval
   authors:
   - S Michelmann
   - U Hasson
   - KA Norman
   publisher: Psychological Science, 09567976221128206, 2023
-  date: '2023-01-03'
+  date: '2023'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_kc_bZDykSQC
   sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -215,7 +215,7 @@
   - P Pauli
   - J Hewig
   publisher: Psychophysiology 54 (4), 578-590, 2017
-  date: '2025-08-22'
+  date: '2017-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
   sort_date: '2017'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -281,7 +281,7 @@
   - B Staresina
   - '...'
   publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
-  date: '2021-06-14'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -425,7 +425,7 @@
   - KA Norman
   - S Michelmann
   publisher: Trends in Cognitive Sciences, 2025
-  date: '2025-07-25'
+  date: '2025-07'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
   sort_date: '2025'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -508,7 +508,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.53765/20512201.30.9.143
+- id: doi:10.1109/aece62803.2024.10911393
   title: Testing Memory Capabilities in Large Language Models with the Sequence Order
     Recall Task
   authors:
@@ -521,9 +521,9 @@
   - KA Norman
   - '...'
   publisher: Latinx in AI@ NeurIPS, 2024
-  date: '2023-09-30'
+  date: '2024-11-22'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mVmsd5A6BfQC
-  sort_date: '2023'
+  sort_date: '2024'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
