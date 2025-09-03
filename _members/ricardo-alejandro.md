@@ -1,6 +1,6 @@
 ---
 name: Ricardo Alejandro
-image: /images/ricardo-alejandro.png
+image: /images/ricardo-alejandro.jpg
 role: postdoc
 links:
   email: ra4933@nyu.edu
