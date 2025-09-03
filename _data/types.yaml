@@ -7,7 +7,6 @@ pi:
   website: https://s-michelmann.github.io/
 
 postdoc:
-  icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
 
 phd:
