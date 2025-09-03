@@ -150,7 +150,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1177/09567976221128206
+- id: doi:10.31234/osf.io/k8j94
   title: Evidence That Event Boundaries Are Access Points for Memory Retrieval
   authors:
   - S Michelmann
