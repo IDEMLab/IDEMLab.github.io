@@ -1,0 +1,42 @@
+---
+---
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin: 40px 0;
+  
+  /* Ensure 4 columns on larger screens */
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  /* 3 columns on medium screens */
+  @media (max-width: 899px) and (min-width: 650px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* 2 columns on small screens */
+  @media (max-width: 649px) and (min-width: 400px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* 1 column on very small screens */
+  @media (max-width: 399px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.team-grid .portrait-wrapper {
+  display: block;
+}
+
+.team-grid .portrait {
+  margin: 0;
+  width: 175px;
+  max-width: 100%;
+}
