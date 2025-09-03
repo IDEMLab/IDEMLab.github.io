@@ -9,6 +9,7 @@ nav:
 
 {% include section.html %}
 
+{% comment %} original hierarchical layout
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 
 {% include section.html %}
@@ -20,6 +21,20 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: masters" %}
 
 {% include list.html data="members" component="portrait" filters="role: undergrad|volunteer" %}
+{% endcomment %}
+
+{% comment %} flat layout {% endcomment %}
+{% include list.html data="members" component="portrait" filters="role: pi" %}
+
+{% include section.html %}
+
+<div class="team-grid">
+{% include list.html data="members" component="portrait" filters="role: postdoc" %}
+{% include list.html data="members" component="portrait" filters="role: phd" %}
+{% include list.html data="members" component="portrait" filters="role: labmanager" %}
+{% include list.html data="members" component="portrait" filters="role: masters" %}
+{% include list.html data="members" component="portrait" filters="role: undergrad|volunteer" %}
+</div>
 
 
 {% include section.html %}
