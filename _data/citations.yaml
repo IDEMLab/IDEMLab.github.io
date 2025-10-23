@@ -118,7 +118,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.31219/osf.io/k9hnf
+- id: doi:10.3758/s13421-020-01072-y
   title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
   authors:
   - CT Ngo
@@ -126,7 +126,7 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-09-03'
+  date: '2025-10-23'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -150,7 +150,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.31234/osf.io/k8j94
+- id: doi:10.1177/09567976221128206
   title: Evidence That Event Boundaries Are Access Points for Memory Retrieval
   authors:
   - S Michelmann
@@ -164,19 +164,18 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
 - id: doi:10.1111/cogs.13343
-  title: Event Segmentation In Story Listening Using Deep Language Models
+  title: Bayesian surprise predicts human event segmentation in story listening
   authors:
   - M Kumar
   - A Goldstein
   - S Michelmann
   - JM Zacks
-  - K Norman
   - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
+  - KA Norman
+  publisher: Cognitive Science 47 (10), e13343, 2023
   date: '2023-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
-  sort_date: '2022'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ULOm3_A8WrAC
+  sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -215,7 +214,7 @@
   - P Pauli
   - J Hewig
   publisher: Psychophysiology 54 (4), 578-590, 2017
-  date: '2025-08-22'
+  date: '2025-10-07'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
   sort_date: '2017'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -346,6 +345,24 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1101/2025.02.14.638352
+  title: "The \u201CPodcast\u201D ECoG dataset for modeling neural activity during\
+    \ natural language comprehension"
+  authors:
+  - Z Zada
+  - SA Nastase
+  - B Aubrey
+  - I Jalon
+  - S Michelmann
+  - H Wang
+  - '...'
+  publisher: Scientific Data 12 (1), 1135, 2025
+  date: '2025'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:7PzlFSSx8tAC
+  sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1145/3520304.3528883
   title: Assessing Episodic Memory in LLMs with Sequence Order Recall Tasks
   authors:
@@ -382,20 +399,16 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/2025.02.14.638352
-  title: "The \u201CPodcast\u201D ECoG dataset for modeling neural activity during\
-    \ natural language comprehension"
+- id: doi:10.1016/j.tics.2025.06.016
+  title: Towards large language models with human-like episodic memory
   authors:
-  - Z Zada
-  - SA Nastase
-  - B Aubrey
-  - I Jalon
+  - CV Dong
+  - Q Lu
+  - KA Norman
   - S Michelmann
-  - H Wang
-  - '...'
-  publisher: Scientific Data 12 (1), 1135, 2025
-  date: '2025'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:7PzlFSSx8tAC
+  publisher: Trends in Cognitive Sciences, 2025
+  date: '2025-07-26'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
   sort_date: '2025'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -417,21 +430,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.tics.2025.06.016
-  title: Towards large language models with human-like episodic memory
-  authors:
-  - CV Dong
-  - Q Lu
-  - KA Norman
-  - S Michelmann
-  publisher: Trends in Cognitive Sciences, 2025
-  date: '2025-07'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
-  sort_date: '2025'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1101/2025.04.22.649929
+- id: doi:10.21203/rs.3.rs-6512178/v1
   title: Hippocampal ripples initiate cortical dimensionality expansion for memory
     retrieval
   authors:
@@ -440,6 +439,17 @@
   - CF Doeller
   publisher: bioRxiv, 2025.04. 22.649929, 2025
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
+  sort_date: Preprints
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1101/2025.09.01.673485
+  title: Canonical Representational Mapping for Cognitive Neuroscience
+  authors:
+  - M Schottdorf
+  - S Michelmann
+  publisher: bioRxiv, 2025.09. 01.673485, 2025
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hC7cP41nSMkC
   sort_date: Preprints
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -480,6 +490,23 @@
   publisher: The Oxford Handbook of EEG Frequency, 2022
   date: '2025-08-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
+  sort_date: '2022'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.31234/osf.io/qd2ra
+  title: Event Segmentation In Story Listening Using Deep Language Models
+  authors:
+  - M Kumar
+  - A Goldstein
+  - S Michelmann
+  - JM Zacks
+  - K Norman
+  - U Hasson
+  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
+    (44), 2022
+  date: '2022'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
