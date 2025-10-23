@@ -13,9 +13,16 @@
 {% for group in sorted_years %}
   {% assign year = group.name %}
   {% assign entries = group.items %}
-  {% if entries %}
+ {% if entries %}
     {{--}}<h3 id="{{ year }}">{{ year }}</h3>
-    {% assign entries = entries | sort: "date" | reverse %}
+    {% comment %} Original date-based sorting for publications {% endcomment %}
+    {% comment %} {% assign entries = entries | sort: "date" | reverse %} {% endcomment %}
+    {% comment %} New sorting logic: alphabetical for members, date-based for others {% endcomment %}
+    {% if include.data == "members" %}
+      {% assign entries = entries | sort: "name" %}
+    {% else %}
+      {% assign entries = entries | sort: "date" | reverse %}
+    {% endif %}
     {% for d in entries %}
       {% assign style = d.style | default: include.style %}
       {%
