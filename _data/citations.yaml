@@ -65,7 +65,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/2020.05.20.104539
+- id: doi:10.1073/pnas.2114171118
   title: The hippocampus as the switchboard between perception and memory
   authors:
   - MS Treder
@@ -76,7 +76,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 118 (50), e2114171118,
     2021
-  date: '2021'
+  date: '2021-12-14'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:UebtZRa9Y70C
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -112,7 +112,7 @@
   - D Friedman
   - '...'
   publisher: Nature Communications 12 (1), 1-15, 2021
-  date: '2021-09-13'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hqOjcs7Dif8C
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -126,7 +126,7 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-10-23'
+  date: '2025-10-24'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -164,18 +164,19 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
 - id: doi:10.1111/cogs.13343
-  title: Bayesian surprise predicts human event segmentation in story listening
+  title: Event Segmentation In Story Listening Using Deep Language Models
   authors:
   - M Kumar
   - A Goldstein
   - S Michelmann
   - JM Zacks
+  - K Norman
   - U Hasson
-  - KA Norman
-  publisher: Cognitive Science 47 (10), e13343, 2023
+  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
+    (44), 2022
   date: '2023-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ULOm3_A8WrAC
-  sort_date: '2023'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
+  sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -214,7 +215,7 @@
   - P Pauli
   - J Hewig
   publisher: Psychophysiology 54 (4), 578-590, 2017
-  date: '2025-10-07'
+  date: '2017-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
   sort_date: '2017'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -280,7 +281,7 @@
   - B Staresina
   - '...'
   publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
-  date: '2021-06-14'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -407,7 +408,7 @@
   - KA Norman
   - S Michelmann
   publisher: Trends in Cognitive Sciences, 2025
-  date: '2025-07-26'
+  date: '2025-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
   sort_date: '2025'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -490,23 +491,6 @@
   publisher: The Oxford Handbook of EEG Frequency, 2022
   date: '2025-08-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
-  sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.31234/osf.io/qd2ra
-  title: Event Segmentation In Story Listening Using Deep Language Models
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - K Norman
-  - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
-  date: '2022'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
