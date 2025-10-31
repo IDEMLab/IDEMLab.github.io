@@ -112,13 +112,13 @@
   - D Friedman
   - '...'
   publisher: Nature Communications 12 (1), 1-15, 2021
-  date: '2021'
+  date: '2021-09-13'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hqOjcs7Dif8C
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.3758/s13421-020-01072-y
+- id: doi:10.31219/osf.io/k9hnf
   title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
   authors:
   - CT Ngo
@@ -126,7 +126,7 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-10-24'
+  date: '2025-10-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -163,7 +163,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1111/cogs.13343
+- id: doi:10.31234/osf.io/qd2ra
   title: Event Segmentation In Story Listening Using Deep Language Models
   authors:
   - M Kumar
@@ -174,7 +174,7 @@
   - U Hasson
   publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
     (44), 2022
-  date: '2023-10'
+  date: '2022'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -281,7 +281,7 @@
   - B Staresina
   - '...'
   publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
-  date: '2021'
+  date: '2021-06-14'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -408,7 +408,7 @@
   - KA Norman
   - S Michelmann
   publisher: Trends in Cognitive Sciences, 2025
-  date: '2025-10'
+  date: '2025-07-26'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
   sort_date: '2025'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -507,19 +507,19 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.3389/conf.fnhum.2015.217.00356
+- id: doi:10.1523/jneurosci.2324-16.2017
   title: Temporal dynamics and mechanisms of oscillatory pattern reinstatement in
     human episodic memory
   authors:
   - S Michelmann
   publisher: University of Birmingham, 2018
-  date: '2018'
+  date: '2017-03-15'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Tyk-4Ss8FVUC
   sort_date: '2018'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.53765/20512201.30.9.143
+- id: doi:10.1109/aece62803.2024.10911393
   title: Testing Memory Capabilities in Large Language Models with the Sequence Order
     Recall Task
   authors:
@@ -532,9 +532,9 @@
   - KA Norman
   - '...'
   publisher: Latinx in AI@ NeurIPS, 2024
-  date: '2023-09-30'
+  date: '2024-11-22'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mVmsd5A6BfQC
-  sort_date: '2023'
+  sort_date: '2024'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
