@@ -65,7 +65,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1073/pnas.2114171118
+- id: doi:10.1101/2020.05.20.104539
   title: The hippocampus as the switchboard between perception and memory
   authors:
   - MS Treder
@@ -76,7 +76,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 118 (50), e2114171118,
     2021
-  date: '2021-12-14'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:UebtZRa9Y70C
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -507,13 +507,13 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1523/jneurosci.2324-16.2017
+- id: doi:10.3389/conf.fnhum.2015.217.00356
   title: Temporal dynamics and mechanisms of oscillatory pattern reinstatement in
     human episodic memory
   authors:
   - S Michelmann
   publisher: University of Birmingham, 2018
-  date: '2017-03-15'
+  date: '2018'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Tyk-4Ss8FVUC
   sort_date: '2018'
   gsid: ZKnNXjYAAAAJ&hl=en
