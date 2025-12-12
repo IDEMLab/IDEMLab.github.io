@@ -35,7 +35,7 @@ Who doesn't love a good board game break?
 {% capture text %}
 {% include icon.html icon="fa-solid fa-beer-mug-empty" %}
 
-At SugarMouse celebrating big transitions: wishing Liv the best at Yale and welcoming our new post-doc, Ricardo. Lots of pool, foosball, and table tennis!
+At Sugar Mouse celebrating big transitions: wishing Liv the best at Yale and welcoming our new post-doc, Ricardo. Lots of pool, foosball, and table tennis!
 {% endcapture %}
 
 {%
