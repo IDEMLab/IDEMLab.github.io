@@ -7,8 +7,39 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-camera-retro" %}Lab Life
 
-{% include figure.html image="images/cold-spring.jpg" caption="Lab outing at Cold Spring. Golden leaves and crisp, clear weather made it the perfect day to hike." width="100%" %}
+{% capture text %}
+{% include icon.html icon="fa-solid fa-leaf" %}
 
-{% include figure.html image="images/board-game.jpg" caption="Who doesn't love a good board game break?" width="100%" %}
+Lab outing at Cold Spring. Golden leaves and crisp, clear weather made it the perfect day to hike.
+{% endcapture %}
 
-{% include figure.html image="images/bar.jpg" caption="At Sugar Mouse celebrating big transitions: wishing Liv the best at Yale and welcoming our new post-doc, Ricardo. Lots of pool, foosball, and table tennis!" width="100%" %}
+{%
+  include feature.html
+  image="images/cold-spring.jpg"
+  text=text
+%}
+
+{% capture text %}
+{% include icon.html icon="fa-solid fa-dice" %}
+
+Who doesn't love a good board game break?
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/board-game.jpg"
+  flip=true
+  text=text
+%}
+
+{% capture text %}
+{% include icon.html icon="fa-solid fa-beer-mug-empty" %}
+
+At SugarMouse celebrating big transitions: wishing Liv the best at Yale and welcoming our new post-doc, Ricardo. Lots of pool, foosball, and table tennis!
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/bar.jpg"
+  text=text
+%}
