@@ -100,6 +100,24 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1016/j.neuron.2024.06.025
+  title: A shared model-based linguistic space for transmitting our thoughts from
+    brain to brain in natural conversations
+  authors:
+  - Z Zada
+  - A Goldstein
+  - S Michelmann
+  - E Simony
+  - A Price
+  - L Hasenfratz
+  - '...'
+  publisher: Neuron 112 (18), 3211-3222. e5, 2024
+  date: '2024-09'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4DMP91E08xMC
+  sort_date: '2024'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1101/2020.12.09.416438
   title: Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical
     interactions
@@ -126,27 +144,9 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-10-10'
+  date: '2020'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1016/j.neuron.2024.06.025
-  title: A shared model-based linguistic space for transmitting our thoughts from
-    brain to brain in natural conversations
-  authors:
-  - Z Zada
-  - A Goldstein
-  - S Michelmann
-  - E Simony
-  - A Price
-  - L Hasenfratz
-  - '...'
-  publisher: Neuron 112 (18), 3211-3222. e5, 2024
-  date: '2024-08-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4DMP91E08xMC
-  sort_date: '2024'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -160,23 +160,6 @@
   date: '2023-01-03'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_kc_bZDykSQC
   sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.31234/osf.io/qd2ra
-  title: Event Segmentation In Story Listening Using Deep Language Models
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - K Norman
-  - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
-  date: '2022'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
-  sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -194,6 +177,22 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1111/cogs.13343
+  title: Bayesian surprise predicts human event segmentation in story listening
+  authors:
+  - M Kumar
+  - A Goldstein
+  - S Michelmann
+  - JM Zacks
+  - U Hasson
+  - KA Norman
+  publisher: Cognitive Science 47 (10), e13343, 2023
+  date: '2023-10'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ULOm3_A8WrAC
+  sort_date: '2023'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1162/jocn_a_01304
   title: Replay of Stimulus-specific Temporal Patterns during Associative Memory Formation
   authors:
@@ -201,7 +200,7 @@
   - H Bowman
   - S Hanslmayr
   publisher: Journal of cognitive neuroscience 30 (11), 1577-1589, 2018
-  date: '2018-07-13'
+  date: '2018-11'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
   sort_date: '2018'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -233,7 +232,7 @@
   - C Doyle
   - '...'
   publisher: Imaging Neuroscience 1, 1-20, 2023
-  date: '2023-10-09'
+  date: '2023'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
   sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -253,6 +252,22 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1101/715276
+  title: EEG and fMRI evidence for autobiographical memory reactivation in empathy
+  authors:
+  - F Meconi
+  - "J Linde\u2010Domingo"
+  - C S. Ferreira
+  - S Michelmann
+  - B Staresina
+  - '...'
+  publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
+  date: '2021'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
+  sort_date: '2021'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.31219/osf.io/sbrg7
   title: 'RT-Cloud: a cloud-based software framework to simplify and standardize real-time
     fMRI'
@@ -265,25 +280,9 @@
   - PS Scotti
   - '...'
   publisher: NeuroImage 257, 119295, 2022
-  date: '2022-05-14'
+  date: '2022'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:MXK_kJrjxJIC
   sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1101/715276
-  title: EEG and fMRI evidence for autobiographical memory reactivation in empathy
-  authors:
-  - F Meconi
-  - "J Linde\u2010Domingo"
-  - C S. Ferreira
-  - S Michelmann
-  - B Staresina
-  - '...'
-  publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
-  date: '2021-06-14'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
-  sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -311,7 +310,7 @@
   - S Hanslmayr
   - H Bowman
   publisher: Neuropsychologia 158, 107867, 2021
-  date: '2021-04-24'
+  date: '2021-07'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:0EnyYjriUFMC
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -333,19 +332,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1007/978-3-031-20910-9_28
-  title: How Should I Re-reference My Intracranial EEG Data?
-  authors:
-  - GM Parish
-  - S Michelmann
-  - S Hanslmayr
-  publisher: 'Intracranial EEG: A Guide for Cognitive Neuroscientists, 451-473, 2023'
-  date: '2023'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:M3ejUd6NZC8C
-  sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1101/2025.02.14.638352
   title: "The \u201CPodcast\u201D ECoG dataset for modeling neural activity during\
     \ natural language comprehension"
@@ -361,6 +347,19 @@
   date: '2025'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:7PzlFSSx8tAC
   sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1007/978-3-031-20910-9_28
+  title: How Should I Re-reference My Intracranial EEG Data?
+  authors:
+  - GM Parish
+  - S Michelmann
+  - S Hanslmayr
+  publisher: 'Intracranial EEG: A Guide for Cognitive Neuroscientists, 451-473, 2023'
+  date: '2023'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:M3ejUd6NZC8C
+  sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -382,6 +381,20 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1016/j.tics.2025.06.016
+  title: Towards large language models with human-like episodic memory
+  authors:
+  - CV Dong
+  - Q Lu
+  - KA Norman
+  - S Michelmann
+  publisher: Trends in Cognitive Sciences, 2025
+  date: '2025-07-26'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
+  sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1016/j.isci.2022.105246
   title: Magnetoencephalographic spectral fingerprints differentiate evidence accumulation
     from saccadic motor preparation in perceptual decision-making
@@ -394,23 +407,9 @@
   - S Michelmann
   - '...'
   publisher: Iscience 25 (10), 105246, 2022
-  date: '2022-09-29'
+  date: '2022-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:3fE2CSJIrl8C
   sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1016/j.tics.2025.06.016
-  title: Towards large language models with human-like episodic memory
-  authors:
-  - CV Dong
-  - Q Lu
-  - KA Norman
-  - S Michelmann
-  publisher: Trends in Cognitive Sciences, 2025
-  date: '2025-07-26'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
-  sort_date: '2025'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -491,6 +490,23 @@
   publisher: The Oxford Handbook of EEG Frequency, 2022
   date: '2025-08-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
+  sort_date: '2022'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.31234/osf.io/qd2ra
+  title: Event Segmentation In Story Listening Using Deep Language Models
+  authors:
+  - M Kumar
+  - A Goldstein
+  - S Michelmann
+  - JM Zacks
+  - K Norman
+  - U Hasson
+  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
+    (44), 2022
+  date: '2022'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
