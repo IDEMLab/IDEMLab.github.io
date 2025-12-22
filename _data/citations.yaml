@@ -144,7 +144,7 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-12-10'
+  date: '2025-12-19'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -178,18 +178,19 @@
   plugin: google-scholar.py
   file: google-scholar.yaml
 - id: doi:10.1111/cogs.13343
-  title: Bayesian surprise predicts human event segmentation in story listening
+  title: Event Segmentation In Story Listening Using Deep Language Models
   authors:
   - M Kumar
   - A Goldstein
   - S Michelmann
   - JM Zacks
+  - K Norman
   - U Hasson
-  - KA Norman
-  publisher: Cognitive Science 47 (10), e13343, 2023
+  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
+    (44), 2022
   date: '2023-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ULOm3_A8WrAC
-  sort_date: '2023'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
+  sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -232,7 +233,7 @@
   - C Doyle
   - '...'
   publisher: Imaging Neuroscience 1, 1-20, 2023
-  date: '2023-10-09'
+  date: '2023'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
   sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -280,7 +281,7 @@
   - PS Scotti
   - '...'
   publisher: NeuroImage 257, 119295, 2022
-  date: '2022-05-14'
+  date: '2022'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:MXK_kJrjxJIC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -407,7 +408,7 @@
   - S Michelmann
   - '...'
   publisher: Iscience 25 (10), 105246, 2022
-  date: '2022-09-29'
+  date: '2022-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:3fE2CSJIrl8C
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -490,23 +491,6 @@
   publisher: The Oxford Handbook of EEG Frequency, 2022
   date: '2025-08-04'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
-  sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.31234/osf.io/qd2ra
-  title: Event Segmentation In Story Listening Using Deep Language Models
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - K Norman
-  - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
-  date: '2022'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
