@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/305698
+- id: doi:10.1073/pnas.1914180116
   title: Directional coupling of slow and fast hippocampal gamma with neocortical
     alpha/beta oscillations in human episodic memory
   authors:
@@ -13,7 +13,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 116 (43), 21834-21842,
     2019
-  date: '2019'
+  date: '2019-10-22'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ufrVoPGSRksC
   sort_date: '2019'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -100,6 +100,20 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.31219/osf.io/k9hnf
+  title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
+  authors:
+  - CT Ngo
+  - S Michelmann
+  - IR Olson
+  - NS Newcombe
+  publisher: Memory & Cognition, 1-13, 2020
+  date: '2020'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
+  sort_date: '2020'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1016/j.neuron.2024.06.025
   title: A shared model-based linguistic space for transmitting our thoughts from
     brain to brain in natural conversations
@@ -133,20 +147,6 @@
   date: '2021-09-13'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hqOjcs7Dif8C
   sort_date: '2021'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.3758/s13421-020-01072-y
-  title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
-  authors:
-  - CT Ngo
-  - S Michelmann
-  - IR Olson
-  - NS Newcombe
-  publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-12-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
-  sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -316,22 +316,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.actpsy.2024.104240
-  title: Post-hypnotic suggestion improves confidence and speed of memory access with
-    long-lasting effects
-  authors:
-  - B Schmidt
-  - "J B\xF6hmer"
-  - M Schnuerch
-  - T Koch
-  - S Michelmann
-  publisher: Acta Psychologica 245, 104240, 2024
-  date: '2024-04-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:aqlVkmm33-oC
-  sort_date: '2024'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1101/2025.02.14.638352
   title: "The \u201CPodcast\u201D ECoG dataset for modeling neural activity during\
     \ natural language comprehension"
@@ -347,6 +331,22 @@
   date: '2025'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:7PzlFSSx8tAC
   sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1016/j.actpsy.2024.104240
+  title: Post-hypnotic suggestion improves confidence and speed of memory access with
+    long-lasting effects
+  authors:
+  - B Schmidt
+  - "J B\xF6hmer"
+  - M Schnuerch
+  - T Koch
+  - S Michelmann
+  publisher: Acta Psychologica 245, 104240, 2024
+  date: '2024-04-02'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:aqlVkmm33-oC
+  sort_date: '2024'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -413,6 +413,19 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.21203/rs.3.rs-6512178/v1
+  title: Hippocampal ripples initiate cortical dimensionality expansion for memory
+    retrieval
+  authors:
+  - "C Kerr\xE9n"
+  - S Michelmann
+  - CF Doeller
+  publisher: bioRxiv, 2025.04. 22.649929, 2025
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
+  sort_date: Preprints
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1101/2025.02.11.637471
   title: Fast-timescale hippocampal processes bridge between slowly unfurling neocortical
     states during memory search
@@ -426,19 +439,6 @@
   - '...'
   publisher: bioRxiv, 2025
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:QIV2ME_5wuYC
-  sort_date: Preprints
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.21203/rs.3.rs-6512178/v1
-  title: Hippocampal ripples initiate cortical dimensionality expansion for memory
-    retrieval
-  authors:
-  - "C Kerr\xE9n"
-  - S Michelmann
-  - CF Doeller
-  publisher: bioRxiv, 2025.04. 22.649929, 2025
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
   sort_date: Preprints
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
