@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/305698
+- id: doi:10.1073/pnas.1914180116
   title: Directional coupling of slow and fast hippocampal gamma with neocortical
     alpha/beta oscillations in human episodic memory
   authors:
@@ -13,7 +13,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 116 (43), 21834-21842,
     2019
-  date: '2019'
+  date: '2019-10-22'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ufrVoPGSRksC
   sort_date: '2019'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -65,7 +65,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1073/pnas.2114171118
+- id: doi:10.1101/2020.05.20.104539
   title: The hippocampus as the switchboard between perception and memory
   authors:
   - MS Treder
@@ -76,7 +76,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 118 (50), e2114171118,
     2021
-  date: '2021-12-14'
+  date: '2021'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:UebtZRa9Y70C
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -136,7 +136,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.3758/s13421-020-01072-y
+- id: doi:10.31219/osf.io/k9hnf
   title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
   authors:
   - CT Ngo
@@ -144,7 +144,7 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2025-12-10'
+  date: '2020'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -200,7 +200,7 @@
   - H Bowman
   - S Hanslmayr
   publisher: Journal of cognitive neuroscience 30 (11), 1577-1589, 2018
-  date: '2018-07-13'
+  date: '2018-11'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
   sort_date: '2018'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -232,7 +232,7 @@
   - C Doyle
   - '...'
   publisher: Imaging Neuroscience 1, 1-20, 2023
-  date: '2023-10-09'
+  date: '2023'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
   sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -280,7 +280,7 @@
   - PS Scotti
   - '...'
   publisher: NeuroImage 257, 119295, 2022
-  date: '2022-05-14'
+  date: '2022'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:MXK_kJrjxJIC
   sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -316,22 +316,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.actpsy.2024.104240
-  title: Post-hypnotic suggestion improves confidence and speed of memory access with
-    long-lasting effects
-  authors:
-  - B Schmidt
-  - "J B\xF6hmer"
-  - M Schnuerch
-  - T Koch
-  - S Michelmann
-  publisher: Acta Psychologica 245, 104240, 2024
-  date: '2024-04-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:aqlVkmm33-oC
-  sort_date: '2024'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1101/2025.02.14.638352
   title: "The \u201CPodcast\u201D ECoG dataset for modeling neural activity during\
     \ natural language comprehension"
@@ -347,6 +331,22 @@
   date: '2025'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:7PzlFSSx8tAC
   sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1016/j.actpsy.2024.104240
+  title: Post-hypnotic suggestion improves confidence and speed of memory access with
+    long-lasting effects
+  authors:
+  - B Schmidt
+  - "J B\xF6hmer"
+  - M Schnuerch
+  - T Koch
+  - S Michelmann
+  publisher: Acta Psychologica 245, 104240, 2024
+  date: '2024-04-02'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:aqlVkmm33-oC
+  sort_date: '2024'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -413,6 +413,19 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.21203/rs.3.rs-6512178/v1
+  title: Hippocampal ripples initiate cortical dimensionality expansion for memory
+    retrieval
+  authors:
+  - "C Kerr\xE9n"
+  - S Michelmann
+  - CF Doeller
+  publisher: bioRxiv, 2025.04. 22.649929, 2025
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
+  sort_date: Preprints
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1101/2025.02.11.637471
   title: Fast-timescale hippocampal processes bridge between slowly unfurling neocortical
     states during memory search
@@ -426,19 +439,6 @@
   - '...'
   publisher: bioRxiv, 2025
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:QIV2ME_5wuYC
-  sort_date: Preprints
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.21203/rs.3.rs-6512178/v1
-  title: Hippocampal ripples initiate cortical dimensionality expansion for memory
-    retrieval
-  authors:
-  - "C Kerr\xE9n"
-  - S Michelmann
-  - CF Doeller
-  publisher: bioRxiv, 2025.04. 22.649929, 2025
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
   sort_date: Preprints
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
