@@ -1,7 +1,8 @@
 ---
 name: Yuyang Xu
 image: /images/yuyang_xu.png
-role: masters
+role: alumni
+description: Former Masters Student
 links:
   email: yx2227@nyu.edu
 ---

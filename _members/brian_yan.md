@@ -1,7 +1,8 @@
 ---
 name: Brian Yan
 image: /images/brian_yan.png
-role: volunteer
+role: alumni
+description: Former Research Volunteer, now Lab Manager with Lila Davachi at Yale
 date: 2024-01-01 02:00
 links:
   email: by2139@nyu.edu>

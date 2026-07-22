@@ -1,7 +1,8 @@
 ---
 name: Catherine Chen
 image: /images/catherine-chen.png
-role: labmanager
+role: alumni
+description: Former Lab Manager
 links:
   email: sc10668@nyu.edu
 ---

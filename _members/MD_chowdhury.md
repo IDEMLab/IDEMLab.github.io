@@ -1,7 +1,8 @@
 ---
 name: MD Chowdhury
 image: /images/md_chowdhury.png
-role: volunteer
+role: alumni
+description: Former Research Volunteer
 date: 2024-01-01 01:00
 links:
   email: mc8619@nyu.edu

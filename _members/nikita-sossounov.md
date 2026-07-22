@@ -1,8 +1,8 @@
 ---
 name: Nikita Sossounov 
 image: /images/nikita-sossounov.png
-role: labmanager
-group: alum
+role: alumni
+description: Former Lab Manager, now PhD Student with Mariam Aly at UC Berkeley
 links:
   email: ns3762@nyu.edu
 ---
