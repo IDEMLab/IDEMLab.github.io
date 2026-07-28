@@ -2,7 +2,7 @@
 name: Hao Liu
 image: /images/hao_liu.png
 role: alumni
-description: Former Masters Student
+description: Former Masters Student, now PhD Student at Brown University
 links:
   email: hl4220@nyu.edu
   website: https://haoliu4391.github.io/Hao_Liu.github.io/

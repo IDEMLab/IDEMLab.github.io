@@ -2,7 +2,7 @@
 name: Olivia Christiano
 image: /images/olivia-christiano.png
 role: alumni
-description: Former Lab Manager, now PhD Student with Randolph Helfrich at Yale
+description: Former Lab Manager, now PhD Student with Randolph Helfrich at Yale University
 links:
   email: olivia.christiano@nyu.edu
   twitter: livchristiano3
