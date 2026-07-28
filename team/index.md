@@ -1,7 +1,7 @@
 ---
 title: People
 nav:
-  order: 3
+  order: 2
   tooltip: About our team
 ---
 
@@ -9,11 +9,8 @@ nav:
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-
-{% include section.html %}
-
 <div class="team-grid">
+{% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc" %}
 {% include list.html data="members" component="portrait" filters="role: phd" %}
 {% include list.html data="members" component="portrait" filters="role: labmanager" %}

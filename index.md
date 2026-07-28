@@ -1,102 +1,25 @@
 ---
 ---
-<div style="text-align: center;">
-    <!--<strong> -->Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab at NYU! <!-- </strong><br><br> -->
-</div>
 
+<style>
+  /* homepage only: keep every section background white (no alternating grey) */
+  main > section:nth-of-type(even) { background: var(--background); }
+</style>
+
+<div style="text-align: center; max-width: 820px; margin: 0 auto;">
+  <p>Welcome to the <strong>Interactive Dynamics of Episodic Memory Lab</strong> at New York University. We investigate how the continuous, temporally dynamic content we encounter in the world is represented in the brain, and what mechanisms and computational principles support its encoding and retrieval.</p>
+</div>
 
 {% include section.html %}
 
-
-
-{% capture text %}
-
-<!--Learn more about what we investigate and the methods we use. -->
+<div style="text-align: center; max-width: 820px; margin: 0 auto;">
 
 {%
   include button.html
-  link="research"
-  text="Learn more about our research"
+  link="contact"
+  text="We are recruiting PhD students to start in Fall 2027!"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
 
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/our_research.png"
-  link="research"
-  text=text
-%}
-
-{% capture text %}
-
-<!--Explore some of our work. -->
-
-{%
-  include button.html
-  link="publications"
-  text="Browse our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/our_publications.png"
-  link="publications"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-<!--Meet the researchers in our lab.-->
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/our_team.png"
-  link="team"
-  text=text
-%}
-
-{% capture text %}
-
-<!--See what we're up to outside of research.-->
-
-{%
-  include button.html
-  link="photos"
-  text="View photos and events"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/our_photos.png"
-  link="photos"
-  flip=true
-  style="bare"
-  text=text
-%}
+</div>

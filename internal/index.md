@@ -1,7 +1,7 @@
 ---
 title: Internal
 nav:
-  order: 7
+  order: 6
   tooltip: Internal resources (login required)
 ---
 
