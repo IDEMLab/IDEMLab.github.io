@@ -7,53 +7,71 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}News
 
-<p><strong>Dec 1, 2025</strong> — Congratulations to Vicky and Clover, who were selected for the Center for Neural Science Summer Undergraduate Research Program (SURP), a highly competitive 10-week research experience designed to introduce undergraduates to neuroscience research and mentorship.</p>
-
-<p><strong>Nov 24, 2025</strong> — Congratulations to Vicky, who has just received the Dean's Undergraduate Research Award for her work on Predictive Processing of Lexical Tone in Speech Comprehension and Memory-Based Encoding of Linguistic Auditory Information.</p>
-
-<p><strong>Nov 18, 2025</strong> — Congratulations to Yuyang, who has just been awarded the Master–Mentorship Model Award!</p>
-
-<p><strong>Nov 6, 2025</strong> — Congratulations to Mackenzie, who has been awarded the NYU Violet Internship & Research Award!</p>
-
-<p><strong>Apr 24, 2025</strong> — Congratulations to Vicky, who has just received the Dean's Undergraduate Research Award for her work on Modelling N400 Amplitude During Naturalistic Story Listening with Repetition.</p>
-
-{% include section.html %}
-
-# {% include icon.html icon="fa-solid fa-camera-retro" %}Lab Life
-
 <style>
-  .feature-image {
-    width: 60% !important;
+  .news-feed {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .news-item {
+    margin: 0 0 34px;
+  }
+  .news-date {
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 4px;
+    text-align: left;
+  }
+  .news-text {
+    line-height: 1.7;
+    text-align: justify;
+  }
+  .news-image {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    margin: 8px 0 12px;
+    border-radius: 8px;
+  }
+  .news-gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 2 / 1;
+    margin: 8px 0 12px;
+  }
+  .news-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+  }
+  .news-gallery .g-big {
+    grid-row: 1 / span 2;
   }
 </style>
 
-{% capture text %}
-{% include icon.html icon="fa-solid fa-leaf" %} Lab outing at Cold Spring. Golden leaves and crisp, clear weather made it the perfect day to hike.
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/cold-spring.jpg"
-  text=text
-%}
-
-{% capture text %}
-{% include icon.html icon="fa-solid fa-dice" %} Who doesn't love a good board game break?
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/board-game.jpg"
-  flip=true
-  text=text
-%}
-
-{% capture text %}
-{% include icon.html icon="fa-solid fa-beer-mug-empty" %} At Sugar Mouse celebrating big transitions: wishing Liv the best at Yale and welcoming our new post-doc, Ricardo. Lots of pool, foosball, and table tennis!
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/bar.jpg"
-  text=text
-%}
+<div class="news-feed">
+{% assign items = site.data.news | sort: "date" | reverse %}
+{% for item in items %}
+  <div class="news-item">
+    <div class="news-date">{{ item.date | date: "%B %-d, %Y" }}</div>
+    {% if item.images %}
+      <div class="news-gallery">
+        <img class="g-big" src="{{ item.images[0] | relative_url }}" alt="" loading="lazy">
+        {% for img in item.images offset: 1 limit: 2 %}
+          <img src="{{ img | relative_url }}" alt="" loading="lazy">
+        {% endfor %}
+      </div>
+    {% elsif item.image %}
+      <img class="news-image" src="{{ item.image | relative_url }}" alt="" loading="lazy">
+    {% endif %}
+    <div class="news-text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+  </div>
+{% endfor %}
+</div>

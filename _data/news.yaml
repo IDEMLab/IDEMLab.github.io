@@ -1,0 +1,31 @@
+# News feed entries. Newest is shown first (sorted by date).
+# Each entry: date (YYYY-MM-DD), text, and an optional image (path under images/).
+# For a photo gallery, use `images:` (a list) instead of `image:`. The first is shown large, the next two smaller beside it.
+
+- date: 2026-07-06
+  text: "Leonard presented his work at the [FENS Forum 2026](https://fensforum.org/) in Barcelona."
+  image: images/FENS26_1.png
+
+- date: 2026-05-28
+  text: "Our lab attended the [Context and Episodic Memory Symposium (CEMS) 2026](https://memory.psych.upenn.edu/CEMS_2026) in Philadelphia, where several members presented our work."
+  images:
+    - images/CEMS26_1.png
+    - images/CEMS26_2.png
+    - images/CEMS26_3.png
+
+- date: 2025-12-01
+  text: "Congratulations to Vicky and Clover, who were selected for NYU's [Center for Neural Science Summer Undergraduate Research Program](https://as.nyu.edu/departments/cns/UndergraduateProgram/summer-research-program.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1), a highly competitive 10-week research experience designed to introduce undergraduates to neuroscience research and mentorship."
+
+- date: 2025-11-24
+  text: Congratulations to Vicky, who has just received NYU's Dean's Undergraduate Research Award for her work on Predictive Processing of Lexical Tone in Speech Comprehension and Memory-Based Encoding of Linguistic Auditory Information.
+
+- date: 2025-11-02
+  text: Lab outing at Cold Spring. Golden leaves and crisp, clear weather made it the perfect day to hike.
+  image: images/cold-spring.jpg
+
+- date: 2025-07-11
+  text: "Celebrating big transitions: wishing Liv the best at Yale and welcoming our new post-doc, Ricardo. Lots of pool, foosball, and table tennis!"
+  image: images/bar.jpg
+
+- date: 2025-04-24
+  text: Congratulations to Vicky, who has just received NYU's Dean's Undergraduate Research Award for her work on Modelling N400 Amplitude During Naturalistic Story Listening with Repetition.

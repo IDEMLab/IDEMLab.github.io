@@ -1,7 +1,7 @@
 ---
 name: Angela Pham
 image: /images/angela-pham.png
-role: undergrad
+role: labmanager
 links:
   email: angelapham@nyu.edu
 ---
