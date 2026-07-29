@@ -7,7 +7,8 @@
 </style>
 
 <div style="text-align: center; max-width: 820px; margin: 0 auto;">
-  <p>Welcome to the <strong>Interactive Dynamics of Episodic Memory Lab</strong> at New York University. We investigate how the continuous, temporally dynamic content we encounter in the world is represented in the brain, and what mechanisms and computational principles support its encoding and retrieval.</p>
+  <p>Welcome to the <strong>Interactive Dynamics of Episodic Memory Lab</strong> at New York University. We investigate how the continuous, temporally dynamic content we encounter in the world is represented in the brain, and what mechanisms and computational principles support its encoding and retrieval. <a href="{{ '/research/' | relative_url }}">Learn more →</a></p>
+
 </div>
 
 {% include section.html %}
