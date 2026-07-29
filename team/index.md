@@ -5,9 +5,12 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}People
+<style>
+  /* People page: keep every section background white (no alternating grey) */
+  main > section:nth-of-type(even) { background: var(--background); }
+</style>
 
-{% include section.html %}
+# {% include icon.html icon="fa-solid fa-users" %}People
 
 <div class="team-grid">
 {% include list.html data="members" component="portrait" filters="role: pi" %}
@@ -25,10 +28,6 @@ nav:
 ## {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alumni" %}
-
-
-
-{% include section.html background="images/background.jpg" dark=true %}
 
 
 

@@ -74,7 +74,6 @@ nav:
     <p>We perceive experience as structured events, such as a train ride or a restaurant visit. Generalized knowledge of how such events typically unfold can shape and support our memory for unique moments. We examine how general knowledge and specific episodic memories interact on a fast timescale.</p>
     <p class="key-pubs">Key publications</p>
     <div class="reference">Michelmann, S., Kumar, M., Norman, K. A., &amp; Toneva, M. (2025). Large language models can segment narrative events similarly to humans. <em>Behavior Research Methods, 57</em>(1), Article 39. {% include button.html text="DOI" link="https://doi.org/10.3758/s13428-024-02569-z" icon="fa-solid fa-up-right-from-square" %}</div>
-    <div class="reference">Kumar, M., Goldstein, A., Michelmann, S., Zacks, J. M., Hasson, U., &amp; Norman, K. A. (2023). Bayesian surprise predicts human event segmentation in story listening. <em>Cognitive Science, 47</em>(10), e13343. {% include button.html text="DOI" link="https://doi.org/10.1111/cogs.13343" icon="fa-solid fa-up-right-from-square" %}</div>
   </div>
 
   <p class="methods">Across these themes, we combine electrophysiology (EEG, MEG, and intracranial EEG) with computational modeling and behavioral experiments to uncover the neurophysiological mechanisms and the computational principles underlying the interactive dynamics of episodic memory.</p>
