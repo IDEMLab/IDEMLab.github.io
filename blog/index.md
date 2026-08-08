@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-<p><strong>Dec 1, 2025</strong> — Congratulations to Vicky and Clover, who were selected for the Center for Neural Science Summer Undergraduate Research Program (SURP), a highly competitive 10-week research experience designed to introduce undergraduates to neuroscience research and mentorship.</p>
+<p><strong>Apr 29, 2026</strong> — Congratulations to Brian and Vicky, who has received the Dean's Undergraduate Research Fund (DURF) Conference Grant to present her research at the 2026 Context and Episodic Memory Symposium (CEMS)!</p>
+
+<p><strong>Dec 1, 2025</strong> — Congratulations to Andi and Clover, who were selected for the Center for Neural Science Summer Undergraduate Research Program (SURP), a highly competitive 10-week research experience designed to introduce undergraduates to neuroscience research and mentorship.</p>
 
 <p><strong>Nov 24, 2025</strong> — Congratulations to Vicky, who has just received the Dean's Undergraduate Research Award for her work on Predictive Processing of Lexical Tone in Speech Comprehension and Memory-Based Encoding of Linguistic Auditory Information.</p>
 
