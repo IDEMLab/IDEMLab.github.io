@@ -6,7 +6,7 @@ nav:
 ---
 # {% include icon.html icon="fa-solid fa-user-plus" %}Join the Lab
 <div style="text-align: justify; margin-bottom: 50px;">
-The IDEM Lab is recruiting PhD students to start in <strong>Fall 2027</strong> through NYU's <strong><a href="https://as.nyu.edu/departments/psychology/graduate/phd-cognition-perception.html" target="_blank" rel="noopener noreferrer">Cognition and Perception</a></strong> program. We welcome inquiries from prospective students interested in the neural and computational dynamics of episodic memory. We look forward to seeing you in vibrant New York City!
+The IDEM Lab is recruiting PhD students to start in <strong>Fall 2027</strong> through NYU's <strong><a href="https://as.nyu.edu/departments/psychology/graduate/phd-cognition-perception.html" target="_blank" rel="noopener noreferrer">Cognition and Perception</a></strong> program. We welcome inquiries from highly motivated students interested in human episodic memory. We look forward to seeing you in vibrant New York City!
 </div>
 
 
@@ -29,7 +29,7 @@ Research and innovation thrive when different voices, perspectives, and experien
   include button.html
   type="email"
   text="Email"
-  link="michelmannlab@nyu.edu"
+  link="miches05@nyu.edu"
 %}
 <!-- {%
  include button.html
