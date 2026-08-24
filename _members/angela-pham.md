@@ -2,6 +2,7 @@
 name: Angela Pham
 image: /images/angela-pham.png
 role: labmanager
+description: IDEM Lab Manager, MEG Lab Manager
 links:
   email: angelapham@nyu.edu
 ---

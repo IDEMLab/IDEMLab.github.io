@@ -2,6 +2,7 @@
 name: Ricardo Alejandro
 image: /images/ricardo-alejandro.jpg
 role: postdoc
+description: Postdoctoral Research Scholar
 links:
   email: ra4933@nyu.edu
 ---

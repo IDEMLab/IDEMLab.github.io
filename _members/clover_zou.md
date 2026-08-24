@@ -2,6 +2,7 @@
 name: Clover Zou
 image: /images/clover_zou.jpg
 role: undergrad
+description: Undergraduate Research Assistant
 links:
   email: cz2921@nyu.edu
 ---
