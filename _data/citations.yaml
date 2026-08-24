@@ -36,35 +36,17 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/323774
-  title: Speed of time-compressed forward replay flexibly changes in human episodic
-    memory
+- id: doi:10.1371/journal.pbio.1002528
+  title: 'The temporal signature of memories: identification of a general mechanism
+    for dynamic memory replay in humans'
   authors:
   - S Michelmann
-  - BP Staresina
   - H Bowman
   - S Hanslmayr
-  publisher: Nature Human Behaviour 3 (2), 143, 2019
-  date: '2019'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:eQOLeE2rZwMC
-  sort_date: '2019'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1073/pnas.2114171118
-  title: The hippocampus as the switchboard between perception and memory
-  authors:
-  - MS Treder
-  - I Charest
-  - S Michelmann
-  - "MC Mart\xEDn-Buro"
-  - F Roux
-  - '...'
-  publisher: Proceedings of the National Academy of Sciences 118 (50), e2114171118,
-    2021
-  date: '2021-12-14'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:UebtZRa9Y70C
-  sort_date: '2021'
+  publisher: PLoS biology 14 (8), e1002528, 2016
+  date: '2016-08-05'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:u-x6o8ySG0sC
+  sort_date: '2016'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -86,7 +68,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/2020.12.09.416438
+- id: doi:10.1038/s41467-021-25376-y
   title: Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical
     interactions
   authors:
@@ -98,13 +80,31 @@
   - D Friedman
   - '...'
   publisher: Nature Communications 12 (1), 1-15, 2021
-  date: '2021'
+  date: '2021-09-13'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hqOjcs7Dif8C
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.3758/s13421-020-01072-y
+- id: doi:10.1016/j.jneumeth.2018.06.021
+  title: Data-driven re-referencing of intracranial EEG based on independent component
+    analysis (ICA)
+  authors:
+  - S Michelmann
+  - MS Treder
+  - B Griffiths
+  - "C Kerr\xE9n"
+  - F Roux
+  - M Wimber
+  - '...'
+  publisher: Journal of neuroscience methods 307, 125-137, 2018
+  date: '2018-06-28'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:zYLM7Y9cAGgC
+  sort_date: '2018'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.31219/osf.io/k9hnf
   title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
   authors:
   - CT Ngo
@@ -112,39 +112,22 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2026-07-17'
+  date: '2026-08-24'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1177/09567976221128206
+- id: doi:10.31234/osf.io/k8j94
   title: Evidence That Event Boundaries Are Access Points for Memory Retrieval
   authors:
   - S Michelmann
   - U Hasson
   - KA Norman
   publisher: Psychological Science, 09567976221128206, 2023
-  date: '2023-03'
+  date: '2023-01-03'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_kc_bZDykSQC
   sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1111/cogs.13343
-  title: Event Segmentation In Story Listening Using Deep Language Models
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - K Norman
-  - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
-  date: '2023-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
-  sort_date: '2022'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -159,6 +142,22 @@
   date: '2025-01-03'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4TOpqqG69KYC
   sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1111/cogs.13343
+  title: Bayesian surprise predicts human event segmentation in story listening
+  authors:
+  - M Kumar
+  - A Goldstein
+  - S Michelmann
+  - JM Zacks
+  - U Hasson
+  - KA Norman
+  publisher: Cognitive Science 47 (10), e13343, 2023
+  date: '2023-10'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ULOm3_A8WrAC
+  sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -187,13 +186,13 @@
   - C Doyle
   - '...'
   publisher: Imaging Neuroscience 1, 1-20, 2023
-  date: '2023'
+  date: '2023-10-09'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
   sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/2025.02.14.638352
+- id: doi:10.1038/s41597-025-05462-2
   title: "The \u201CPodcast\u201D ECoG dataset for modeling neural activity during\
     \ natural language comprehension"
   authors:
@@ -205,9 +204,37 @@
   - H Wang
   - '...'
   publisher: Scientific Data 12 (1), 1135, 2025
-  date: '2025'
+  date: '2025-07-03'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:7PzlFSSx8tAC
   sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1016/j.tics.2025.06.016
+  title: Towards large language models with human-like episodic memory
+  authors:
+  - CV Dong
+  - Q Lu
+  - KA Norman
+  - S Michelmann
+  publisher: Trends in Cognitive Sciences, 2025
+  date: '2025-07-26'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
+  sort_date: '2025'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1111/psyp.12822
+  title: Learning processes underlying avoidance of negative outcomes
+  authors:
+  - M Andreatta
+  - S Michelmann
+  - P Pauli
+  - J Hewig
+  publisher: Psychophysiology 54 (4), 578-590, 2017
+  date: '2017-04'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9yKSN-GCB0IC
+  sort_date: '2017'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -222,6 +249,22 @@
   date: '2022-09-21'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Zph67rFs4hoC
   sort_date: '2022'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1101/715276
+  title: EEG and fMRI evidence for autobiographical memory reactivation in empathy
+  authors:
+  - F Meconi
+  - "J Linde\u2010Domingo"
+  - C S. Ferreira
+  - S Michelmann
+  - B Staresina
+  - '...'
+  publisher: Human Brain Mapping 42 (14), 4448-4464, 2021
+  date: '2021-06-14'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:5nxA0vEk-isC
+  sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -271,22 +314,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.actpsy.2024.104240
-  title: Post-hypnotic suggestion improves confidence and speed of memory access with
-    long-lasting effects
-  authors:
-  - B Schmidt
-  - "J B\xF6hmer"
-  - M Schnuerch
-  - T Koch
-  - S Michelmann
-  publisher: Acta Psychologica 245, 104240, 2024
-  date: '2024-04-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:aqlVkmm33-oC
-  sort_date: '2024'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1016/j.neuropsychologia.2021.107867
   title: 'The Sync-Fire/deSync model: Modelling the reactivation of dynamic memories
     from cortical alpha oscillations'
@@ -296,7 +323,7 @@
   - S Hanslmayr
   - H Bowman
   publisher: Neuropsychologia 158, 107867, 2021
-  date: '2021-07'
+  date: '2021-04-24'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:0EnyYjriUFMC
   sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -338,6 +365,20 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1101/2025.04.22.649929
+  title: Hippocampal ripples initiate cortical dimensionality expansion for memory
+    retrieval
+  authors:
+  - "C Kerr\xE9n"
+  - S Michelmann
+  - CF Doeller
+  publisher: Nature Communications 17 (1), 6677, 2026
+  date: '2026-07-20'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
+  sort_date: '2026'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1101/2025.09.01.673485
   title: Canonical Representational Mapping for Cognitive Neuroscience
   authors:
@@ -346,6 +387,41 @@
   publisher: bioRxiv, 2025.09. 01.673485, 2025
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hC7cP41nSMkC
   sort_date: Preprints
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.64898/2026.01.18.700222
+  title: Phase similarity between similar objects indicates representational merging
+    across retrieval training but not sleep
+  authors:
+  - HB Caldwell
+  - A Chatburn
+  - K Lushington
+  - S Hanslmayr
+  - S Michelmann
+  publisher: Imaging Neuroscience 4, IMAG.a.1321, 2026
+  date: '2026'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:TQgYirikUcIC
+  sort_date: '2026'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1037/e537102012-593
+  title: Temporal Context Reinstatement Drives Episodic-Like Order Memory in Long-Context
+    Language Models
+  authors:
+  - M Pink
+  - VA Vo
+  - Q Wu
+  - J Mu
+  - JS Turek
+  - U Hasson
+  - KA Norman
+  - '...'
+  publisher: Forty-third International Conference on Machine Learning, 2026
+  date: '2026'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mB3voiENLucC
+  sort_date: '2026'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -362,16 +438,32 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1162/imag.a.96
-  title: 10.1 ALPHA OSCILLATIONS AND THEIR RELATION TO COGNITION
+- id: doi:10.31234/osf.io/qd2ra
+  title: Event Segmentation In Story Listening Using Deep Language Models
   authors:
-  - S MICHELMANN
-  - B GRIFFITHS
-  - S HANSLMAYR
-  publisher: The Oxford Handbook of EEG Frequency, 2022
-  date: '2025-08-04'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
+  - M Kumar
+  - A Goldstein
+  - S Michelmann
+  - JM Zacks
+  - K Norman
+  - U Hasson
+  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
+    (44), 2022
+  date: '2022'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
   sort_date: '2022'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1016/s1051-0443(04)70059-7
+  title: What determines when we store and retrieve memories under naturalistic conditions?
+    And how does the brain do it?
+  authors:
+  - S Michelmann
+  publisher: Social Sciences, 2021
+  date: '2004-02'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:9ZlFYXVOiuMC
+  sort_date: '2021'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -384,25 +476,6 @@
   date: '2018'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Tyk-4Ss8FVUC
   sort_date: '2018'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.31234/osf.io/qyfrw_v4
-  title: Testing Memory Capabilities in Large Language Models with the Sequence Order
-    Recall Task
-  authors:
-  - M Pink
-  - VA Vo
-  - Q Wu
-  - J Mu
-  - JS Turek
-  - U Hasson
-  - KA Norman
-  - '...'
-  publisher: Latinx in AI@ NeurIPS, 2024
-  date: ''
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mVmsd5A6BfQC
-  sort_date: '0000'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
