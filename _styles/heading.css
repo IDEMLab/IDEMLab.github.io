@@ -14,8 +14,8 @@ h6 {
 h1 {
   font-size: 1.6rem;
   font-weight: var(--regular);
-  text-transform: uppercase;
-  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: solid 1px var(--light-gray);
 }
 
 h2 {

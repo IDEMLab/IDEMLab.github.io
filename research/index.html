@@ -86,7 +86,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Inter:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -405,32 +405,26 @@
       
     
       
-        <a href="/publications/" data-tooltip="Published works">
-          Publications
-        </a>
-      
-    
-      
         <a href="/team/" data-tooltip="About our team">
           People
         </a>
       
     
       
-        <a href="/blog/" data-tooltip="Lab news">
-          Blog
+        <a href="/publications/" data-tooltip="Published works">
+          Publications
         </a>
       
     
       
-        <a href="/contact/" data-tooltip="Contact us">
-          Get Involved
+        <a href="/blog/" data-tooltip="Lab news and life">
+          News
         </a>
       
     
       
-        <a href="/photos/" data-tooltip="Lab life">
-          Photos
+        <a href="/contact/" data-tooltip="Join the lab">
+          Join
         </a>
       
     
@@ -460,202 +454,146 @@
   
   
 
-  <section class="background" data-size="page">
+  <section class="background" data-size="0.8rem">
     <h1 id="research">
 <i class="icon fa-solid fa-brain"></i>Research</h1>
 
 <style>
-  .research-container {
-    display: flex;
-    flex-direction: column; /* Change layout to column to stack text and cards */
-    gap: 20px;
+  .research-body h3 {
+    margin: 0 0 8px;
   }
-
-  .research-text {
-    padding-bottom: 20px; /* Add space between the text and cards */
+  .research-body p {
+    margin: 8px 0;
   }
-
-  .research-cards {
-    display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap if there are many */
-    justify-content: center; /* Center the cards horizontally */
-    gap: 15px; /* Space between the cards */
+  .theme {
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    padding: 18px 26px;
+    margin: 20px 0;
   }
-
-  .research-cards .card {
-    max-width: 250px; /* Limit the card width */
+  .theme .reference:last-child {
+    margin-bottom: 0;
+  }
+  .methods {
+    margin-top: 40px;
+  }
+  .key-pubs {
+    margin: 10px 0 8px;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gray);
+  }
+  .reference {
+    margin: 0 0 8px;
+    line-height: 1.6;
+  }
+  .reference .button-wrapper {
+    display: contents;
+  }
+  .reference .button {
+    padding: 1px 9px;
+    margin: 0 0 0 6px;
+    gap: 5px;
+    line-height: 1.4;
+    vertical-align: baseline;
   }
 </style>
 
-<div class="research-container">
-  <div class="research-text">
-    <div style="text-align: center; margin-bottom: 50px;">
-      <p>In the IDEM Lab, we want to understand how fast neural dynamics enable human episodic memory formation and retrieval. We are especially interested in how memories are formed and retrieved under real-life conditions. For example, when there is no explicit study or test phase, how does the brain determine when to store or retrieve information? And how do different memory systems work together when we process information-rich and continuous stimuli?
-  To answer these questions, we leverage a wide array of methods, including electrophysiology (EEG, MEG, and intracranial EEG), computational modeling, and behavioral experiments.</p>
-  </div>
-  <!--
-  <div class="research-cards">
-    
+<div class="research-body" style="margin: 0 auto; text-align: justify;">
 
-  
-  
- <h3 id=""></h3>
-    
-    
-    
-    
-    
+  <p>The brain forms and retrieves memories of continuous, real-life experience with striking speed and precision. We ask how experience that unfolds over time is represented in the brain, and what mechanisms and computational principles support its encoding and retrieval. Our work spans three connected themes.</p>
+
+  <div class="theme">
+    <h3>Temporal dynamics of memory</h3>
+    <p>Memory can be remarkably precise in time: we can reproduce a melody heard only once with striking temporal accuracy. Yet we can also search through long stretches of memory far faster than we originally experienced them. We investigate how the brain reconciles fast memory search with temporally accurate representations.</p>
+    <p class="key-pubs">Key publications</p>
+    <div class="reference">Michelmann, S., Bowman, H., &amp; Hanslmayr, S. (2016). The temporal signature of memories: Identification of a general mechanism for dynamic memory replay in humans. <em>PLOS Biology, 14</em>(8), e1002528. 
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://doi.org/10.1371/journal.pbio.1002528" data-style="" aria-label="fa-solid fa-up-right-from-square">
+      <i class="icon fa-solid fa-up-right-from-square"></i>
       
-       
-<div class="card" data-style="">
-  <a
-    
-    aria-label="card link"
-    class="card-image"
-  >
-    <img
-      src="/images/behavior.png"
-      alt="card image"
-      loading="lazy"
-      onerror="this.style.display='none'; this.onerror=null;"
-
-    >
-  </a>
-
-  <div class="card-text">
-    
-
-    
-
-    
-
-    
-  </div>
-</div>
-
-    
+        <span>DOI</span>
       
-       
-<div class="card" data-style="">
-  <a
-    
-    aria-label="card link"
-    class="card-image"
-  >
-    <img
-      src="/images/computational.png"
-      alt="card image"
-      loading="lazy"
-      onerror="this.style.display='none'; this.onerror=null;"
-
-    >
-  </a>
-
-  <div class="card-text">
-    
-
-    
-
-    
-
-    
+    </a>
   </div>
-</div>
 
-    
+</div>
+    <div class="reference">Michelmann, S., Staresina, B. P., Bowman, H., &amp; Hanslmayr, S. (2019). Speed of time-compressed forward replay flexibly changes in human episodic memory. <em>Nature Human Behaviour, 3</em>(2), 143–154. 
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://doi.org/10.1038/s41562-018-0491-4" data-style="" aria-label="fa-solid fa-up-right-from-square">
+      <i class="icon fa-solid fa-up-right-from-square"></i>
       
-       
-<div class="card" data-style="">
-  <a
-    
-    aria-label="card link"
-    class="card-image"
-  >
-    <img
-      src="/images/ieeg.jpg"
-      alt="card image"
-      loading="lazy"
-      onerror="this.style.display='none'; this.onerror=null;"
-
-    >
-  </a>
-
-  <div class="card-text">
-    
-
-    
-
-    
-
-    
-  </div>
-</div>
-
-    
+        <span>DOI</span>
       
-       
-<div class="card" data-style="">
-  <a
-    
-    aria-label="card link"
-    class="card-image"
-  >
-    <img
-      src="/images/eeg.jpg"
-      alt="card image"
-      loading="lazy"
-      onerror="this.style.display='none'; this.onerror=null;"
-
-    >
-  </a>
-
-  <div class="card-text">
-    
-
-    
-
-    
-
-    
+    </a>
   </div>
-</div>
 
-    
+</div>
+  </div>
+
+  <div class="theme">
+    <h3>Memory in continuous, real-life experience</h3>
+    <p>Real experience comes without an explicit study or test phase. The brain must determine on its own when to encode and when to retrieve, timing fast neural processes to the ongoing flow of information. We study how these fleeting memory processes are embedded in continuous experience.</p>
+    <p class="key-pubs">Key publications</p>
+    <div class="reference">Michelmann, S., Price, A. R., Aubrey, B., Strauss, C. K., Doyle, W. K., Friedman, D., Dugan, P. C., Devinsky, O., Devore, S., Flinker, A., Hasson, U., &amp; Norman, K. A. (2021). Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical interactions. <em>Nature Communications, 12</em>, Article 5394. 
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://doi.org/10.1038/s41467-021-25376-y" data-style="" aria-label="fa-solid fa-up-right-from-square">
+      <i class="icon fa-solid fa-up-right-from-square"></i>
       
-       
-<div class="card" data-style="">
-  <a
-    
-    aria-label="card link"
-    class="card-image"
-  >
-    <img
-      src="/images/meg.jpg"
-      alt="card image"
-      loading="lazy"
-      onerror="this.style.display='none'; this.onerror=null;"
-
-    >
-  </a>
-
-  <div class="card-text">
-    
-
-    
-
-    
-
-    
+        <span>DOI</span>
+      
+    </a>
   </div>
+
 </div>
-
-    
-  
+    <div class="reference">Michelmann, S., Hasson, U., &amp; Norman, K. A. (2023). Evidence that event boundaries are access points for memory retrieval. <em>Psychological Science, 34</em>(3), 326–344. 
 
 
+
+  <div class="button-wrapper">
+    <a class="button" href="https://doi.org/10.1177/09567976221128206" data-style="" aria-label="fa-solid fa-up-right-from-square">
+      <i class="icon fa-solid fa-up-right-from-square"></i>
+      
+        <span>DOI</span>
+      
+    </a>
   </div>
-  -->
+
 </div>
+  </div>
+
+  <div class="theme">
+    <h3>Event knowledge and episodic memory</h3>
+    <p>We perceive experience as structured events, such as a train ride or a restaurant visit. Generalized knowledge of how such events typically unfold can shape and support our memory for unique moments. We examine how general knowledge and specific episodic memories interact on a fast timescale.</p>
+    <p class="key-pubs">Key publications</p>
+    <div class="reference">Michelmann, S., Kumar, M., Norman, K. A., &amp; Toneva, M. (2025). Large language models can segment narrative events similarly to humans. <em>Behavior Research Methods, 57</em>(1), Article 39. 
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://doi.org/10.3758/s13428-024-02569-z" data-style="" aria-label="fa-solid fa-up-right-from-square">
+      <i class="icon fa-solid fa-up-right-from-square"></i>
+      
+        <span>DOI</span>
+      
+    </a>
+  </div>
+
+</div>
+  </div>
+
+  <p class="methods">Across these themes, we combine electrophysiology (EEG, MEG, and intracranial EEG) with computational modeling and behavioral experiments to uncover the neurophysiological mechanisms and the computational principles underlying the interactive dynamics of episodic memory.</p>
+
 </div>
   </section>
 

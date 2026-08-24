@@ -86,7 +86,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Inter:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -405,32 +405,26 @@
       
     
       
-        <a href="/publications/" data-tooltip="Published works">
-          Publications
-        </a>
-      
-    
-      
         <a href="/team/" data-tooltip="About our team">
           People
         </a>
       
     
       
-        <a href="/blog/" data-tooltip="Lab news">
-          Blog
+        <a href="/publications/" data-tooltip="Published works">
+          Publications
         </a>
       
     
       
-        <a href="/contact/" data-tooltip="Contact us">
-          Get Involved
+        <a href="/blog/" data-tooltip="Lab news and life">
+          News
         </a>
       
     
       
-        <a href="/photos/" data-tooltip="Lab life">
-          Photos
+        <a href="/contact/" data-tooltip="Join the lab">
+          Join
         </a>
       
     
@@ -460,9 +454,15 @@
   
   
 
-  <section class="background" data-size="page">
-    <div style="text-align: center;">
-    <!--<strong> -->Welcome to the Interactive Dynamics of Episodic Memory (IDEM) Lab at NYU! <!-- </strong><br><br> -->
+  <section class="background" data-size="page" style="--image: url('/var(--background)')">
+    <style>
+  /* homepage only: keep every section background white (no alternating grey) */
+  main > section:nth-of-type(even) { background: var(--background); }
+</style>
+
+<div style="text-align: center; max-width: 820px; margin: 0 auto;">
+  <p>Welcome to the <strong>Interactive Dynamics of Episodic Memory Lab</strong> at New York University. We investigate how the continuous, temporally dynamic content we encounter in the world is represented in the brain, and what mechanisms and computational principles support its encoding and retrieval. <a href="/research/">Learn more →</a></p>
+
 </div>
   </section>
 
@@ -477,92 +477,23 @@
   size: ;
 -->
 
-<div class="feature">
-  <a href="/research" class="feature-image" aria-label="feature link">
-    <img src="/images/our_research.png" loading="lazy" alt="feature image" onerror="this.style.display='none'; this.onerror=null;">
-  </a>
-  <div class="feature-text">
-    
-    
-<!--Learn more about what we investigate and the methods we use. -->
+<div style="text-align: center; max-width: 820px; margin: 0 auto;">
 
-<div class="button-wrapper">
-    <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/contact" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>Learn more about our research</span>
+        <span>We are recruiting PhD students to start in Fall 2027!</span>
       
     </a>
   </div>
 
 
-  </div>
-</div>
 
-<div class="feature" data-flip="">
-  <a href="/publications" class="feature-image" aria-label="feature link">
-    <img src="/images/our_publications.png" loading="lazy" alt="feature image" onerror="this.style.display='none'; this.onerror=null;">
-  </a>
-  <div class="feature-text">
-    
-    
-<!--Explore some of our work. -->
-
-<div class="button-wrapper">
-    <a class="button" href="/publications" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Browse our publications</span>
-      
-    </a>
-  </div>
-
-
-  </div>
-</div>
-
-<div class="feature">
-  <a href="/team" class="feature-image" aria-label="feature link">
-    <img src="/images/our_team.png" loading="lazy" alt="feature image" onerror="this.style.display='none'; this.onerror=null;">
-  </a>
-  <div class="feature-text">
-    
-    
-<!--Meet the researchers in our lab.-->
-
-<div class="button-wrapper">
-    <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Meet our team</span>
-      
-    </a>
-  </div>
-
-
-  </div>
-</div>
-
-<div class="feature" data-flip="">
-  <a href="/photos" class="feature-image" aria-label="feature link">
-    <img src="/images/our_photos.png" loading="lazy" alt="feature image" onerror="this.style.display='none'; this.onerror=null;">
-  </a>
-  <div class="feature-text">
-    
-    
-<!--See what we're up to outside of research.-->
-
-<div class="button-wrapper">
-    <a class="button" href="/photos" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>View photos and events</span>
-      
-    </a>
-  </div>
-
-
-  </div>
 </div>
   </section>
 

@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Blog | The Interactive Dynamics of Episodic Memory Lab</title>
+<title>News | The Interactive Dynamics of Episodic Memory Lab</title>
 
 <link rel="icon" href="/images/icon.jpg">
 
-<meta name="title" content="Blog">
+<meta name="title" content="News">
 <meta name="description" content="Welcome to the IDEM Lab">
 
-<meta property="og:title" content="Blog">
+<meta property="og:title" content="News">
 <meta property="og:site_title" content="The Interactive Dynamics of Episodic Memory Lab">
 <meta property="og:description" content="Welcome to the IDEM Lab">
 <meta property="og:url" content="https://idemlab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Blog">
+<meta property="twitter:title" content="News">
 <meta property="twitter:description" content="Welcome to the IDEM Lab">
 <meta property="twitter:url" content="https://idemlab.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "Blog",
+    "name": "News",
     "description": "Welcome to the IDEM Lab",
-    "headline": "Blog",
+    "headline": "News",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.jpg" }
@@ -86,7 +86,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Inter:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -405,32 +405,26 @@
       
     
       
-        <a href="/publications/" data-tooltip="Published works">
-          Publications
-        </a>
-      
-    
-      
         <a href="/team/" data-tooltip="About our team">
           People
         </a>
       
     
       
-        <a href="/blog/" data-tooltip="Lab news">
-          Blog
+        <a href="/publications/" data-tooltip="Published works">
+          Publications
         </a>
       
     
       
-        <a href="/contact/" data-tooltip="Contact us">
-          Get Involved
+        <a href="/blog/" data-tooltip="Lab news and life">
+          News
         </a>
       
     
       
-        <a href="/photos/" data-tooltip="Lab life">
-          Photos
+        <a href="/contact/" data-tooltip="Join the lab">
+          Join
         </a>
       
     
@@ -460,19 +454,127 @@
   
   
 
-  <section class="background" data-size="page">
-    <h1 id="blog">
-<i class="icon fa-solid fa-feather-pointed"></i>Blog</h1>
+  <section class="background" data-size="0.8rem">
+    <h1 id="news">
+<i class="icon fa-solid fa-newspaper"></i>News</h1>
 
-<p><strong>Dec 1, 2025</strong> — Congratulations to Vicky and Clover, who were selected for the Center for Neural Science Summer Undergraduate Research Program (SURP), a highly competitive 10-week research experience designed to introduce undergraduates to neuroscience research and mentorship.</p>
+<style>
+  .news-feed {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .news-item {
+    margin: 0 0 34px;
+  }
+  .news-date {
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 4px;
+    text-align: left;
+  }
+  .news-text {
+    line-height: 1.7;
+    text-align: justify;
+  }
+  .news-image {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    margin: 8px 0 12px;
+    border-radius: 8px;
+  }
+  .news-gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 2 / 1;
+    margin: 8px 0 12px;
+  }
+  .news-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+  }
+  .news-gallery .g-big {
+    grid-row: 1 / span 2;
+  }
+</style>
 
-<p><strong>Nov 24, 2025</strong> — Congratulations to Vicky, who has just received the Dean's Undergraduate Research Award for her work on Predictive Processing of Lexical Tone in Speech Comprehension and Memory-Based Encoding of Linguistic Auditory Information.</p>
+<div class="news-feed">
 
-<p><strong>Nov 18, 2025</strong> — Congratulations to Yuyang, who has just been awarded the Master–Mentorship Model Award!</p>
 
-<p><strong>Nov 6, 2025</strong> — Congratulations to Mackenzie, who has been awarded the NYU Violet Internship &amp; Research Award!</p>
+  <div class="news-item">
+    <div class="news-date">July 6, 2026</div>
+    
+      <img class="news-image" src="/images/FENS26_1.png" alt="" loading="lazy">
+    
+    <div class="news-text">Leonard presented his work at the <a href="https://fensforum.org/">FENS Forum 2026</a> in Barcelona.
+</div>
+  </div>
 
-<p><strong>Apr 24, 2025</strong> — Congratulations to Vicky, who has just received the Dean's Undergraduate Research Award for her work on Modelling N400 Amplitude During Naturalistic Story Listening with Repetition.</p>
+  <div class="news-item">
+    <div class="news-date">May 28, 2026</div>
+    
+      <div class="news-gallery">
+        <img class="g-big" src="/images/CEMS26_1.png" alt="" loading="lazy">
+        
+          <img src="/images/CEMS26_2.png" alt="" loading="lazy">
+        
+          <img src="/images/CEMS26_3.png" alt="" loading="lazy">
+        
+      </div>
+    
+    <div class="news-text">Our lab attended the <a href="https://memory.psych.upenn.edu/CEMS_2026">Context and Episodic Memory Symposium (CEMS) 2026</a> in Philadelphia, where several members presented our work.
+</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">December 1, 2025</div>
+    
+    <div class="news-text">Congratulations to Vicky and Clover, who were selected for NYU’s <a href="https://as.nyu.edu/departments/cns/UndergraduateProgram/summer-research-program.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1">Center for Neural Science Summer Undergraduate Research Program</a>, a highly competitive 10-week research experience designed to introduce undergraduates to neuroscience research and mentorship.
+</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">November 24, 2025</div>
+    
+    <div class="news-text">Congratulations to Vicky, who has just received NYU’s Dean’s Undergraduate Research Award for her work on Predictive Processing of Lexical Tone in Speech Comprehension and Memory-Based Encoding of Linguistic Auditory Information.
+</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">November 2, 2025</div>
+    
+      <img class="news-image" src="/images/cold-spring.jpg" alt="" loading="lazy">
+    
+    <div class="news-text">Lab outing at Cold Spring. Golden leaves and crisp, clear weather made it the perfect day to hike.
+</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">July 11, 2025</div>
+    
+      <img class="news-image" src="/images/bar.jpg" alt="" loading="lazy">
+    
+    <div class="news-text">Celebrating big transitions: wishing Liv the best at Yale and welcoming our new post-doc, Ricardo. Lots of pool, foosball, and table tennis!
+</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">April 24, 2025</div>
+    
+    <div class="news-text">Congratulations to Vicky, who has just received NYU’s Dean’s Undergraduate Research Award for her work on Modelling N400 Amplitude During Naturalistic Story Listening with Repetition.
+</div>
+  </div>
+
+</div>
   </section>
 
 
