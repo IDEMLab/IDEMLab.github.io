@@ -19,23 +19,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.7554/elife.17397
-  title: Hippocampal pattern completion is linked to gamma power increases and alpha
-    power decreases during recollection
-  authors:
-  - BP Staresina
-  - S Michelmann
-  - M Bonnefond
-  - O Jensen
-  - N Axmacher
-  - J Fell
-  publisher: Elife 5, e17397, 2016
-  date: '2016-08-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:u5HHmVD_uO8C
-  sort_date: '2016'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1371/journal.pbio.1002528
   title: 'The temporal signature of memories: identification of a general mechanism
     for dynamic memory replay in humans'
@@ -50,57 +33,18 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.neuron.2024.06.025
-  title: A shared model-based linguistic space for transmitting our thoughts from
-    brain to brain in natural conversations
-  authors:
-  - Z Zada
-  - A Goldstein
-  - S Michelmann
-  - E Simony
-  - A Price
-  - L Hasenfratz
-  - '...'
-  publisher: Neuron 112 (18), 3211-3222. e5, 2024
-  date: '2024-08-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4DMP91E08xMC
-  sort_date: '2024'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1038/s41467-021-25376-y
-  title: Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical
-    interactions
+- id: doi:10.1101/323774
+  title: Speed of time-compressed forward replay flexibly changes in human episodic
+    memory
   authors:
   - S Michelmann
-  - AR Price
-  - B Aubrey
-  - CK Strauss
-  - WK Doyle
-  - D Friedman
-  - '...'
-  publisher: Nature Communications 12 (1), 1-15, 2021
-  date: '2021-09-13'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hqOjcs7Dif8C
-  sort_date: '2021'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1016/j.jneumeth.2018.06.021
-  title: Data-driven re-referencing of intracranial EEG based on independent component
-    analysis (ICA)
-  authors:
-  - S Michelmann
-  - MS Treder
-  - B Griffiths
-  - "C Kerr\xE9n"
-  - F Roux
-  - M Wimber
-  - '...'
-  publisher: Journal of neuroscience methods 307, 125-137, 2018
-  date: '2018-06-28'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:zYLM7Y9cAGgC
-  sort_date: '2018'
+  - BP Staresina
+  - H Bowman
+  - S Hanslmayr
+  publisher: Nature Human Behaviour 3 (2), 143, 2019
+  date: '2019'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:eQOLeE2rZwMC
+  sort_date: '2019'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -145,22 +89,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1111/cogs.13343
-  title: Bayesian surprise predicts human event segmentation in story listening
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - U Hasson
-  - KA Norman
-  publisher: Cognitive Science 47 (10), e13343, 2023
-  date: '2023-10'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ULOm3_A8WrAC
-  sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1162/jocn_a_01304
   title: Replay of Stimulus-specific Temporal Patterns during Associative Memory Formation
   authors:
@@ -186,41 +114,9 @@
   - C Doyle
   - '...'
   publisher: Imaging Neuroscience 1, 1-20, 2023
-  date: '2023-10-09'
+  date: '2023'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
   sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1038/s41597-025-05462-2
-  title: "The \u201CPodcast\u201D ECoG dataset for modeling neural activity during\
-    \ natural language comprehension"
-  authors:
-  - Z Zada
-  - SA Nastase
-  - B Aubrey
-  - I Jalon
-  - S Michelmann
-  - H Wang
-  - '...'
-  publisher: Scientific Data 12 (1), 1135, 2025
-  date: '2025-07-03'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:7PzlFSSx8tAC
-  sort_date: '2025'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1016/j.tics.2025.06.016
-  title: Towards large language models with human-like episodic memory
-  authors:
-  - CV Dong
-  - Q Lu
-  - KA Norman
-  - S Michelmann
-  publisher: Trends in Cognitive Sciences, 2025
-  date: '2025-07-26'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:qUcmZB5y_30C
-  sort_date: '2025'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -365,6 +261,23 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1101/2025.02.11.637471
+  title: Fast-timescale hippocampal processes bridge between slowly unfurling neocortical
+    states during memory search
+  authors:
+  - S Michelmann
+  - P Dugan
+  - W Doyle
+  - D Friedman
+  - L Melloni
+  - CK Strauss
+  - '...'
+  publisher: bioRxiv, 2025
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:QIV2ME_5wuYC
+  sort_date: Preprints
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1101/2025.04.22.649929
   title: Hippocampal ripples initiate cortical dimensionality expansion for memory
     retrieval
@@ -373,7 +286,7 @@
   - S Michelmann
   - CF Doeller
   publisher: Nature Communications 17 (1), 6677, 2026
-  date: '2026-07-20'
+  date: '2026'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
   sort_date: '2026'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -438,6 +351,19 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1162/imag.a.96
+  title: 10.1 ALPHA OSCILLATIONS AND THEIR RELATION TO COGNITION
+  authors:
+  - S MICHELMANN
+  - B GRIFFITHS
+  - S HANSLMAYR
+  publisher: The Oxford Handbook of EEG Frequency, 2022
+  date: '2025-08-04'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:dhFuZR0502QC
+  sort_date: '2022'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.31234/osf.io/qd2ra
   title: Event Segmentation In Story Listening Using Deep Language Models
   authors:
@@ -476,6 +402,25 @@
   date: '2018'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Tyk-4Ss8FVUC
   sort_date: '2018'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.31234/osf.io/qyfrw_v4
+  title: Testing Memory Capabilities in Large Language Models with the Sequence Order
+    Recall Task
+  authors:
+  - M Pink
+  - VA Vo
+  - Q Wu
+  - J Mu
+  - JS Turek
+  - U Hasson
+  - KA Norman
+  - '...'
+  publisher: Latinx in AI@ NeurIPS, 2024
+  date: ''
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mVmsd5A6BfQC
+  sort_date: '0000'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
