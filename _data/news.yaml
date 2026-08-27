@@ -2,6 +2,16 @@
 # Each entry: date (YYYY-MM-DD), text, and an optional image (path under images/).
 # For a photo gallery, use `images:` (a list) instead of `image:`. The first is shown large, the next two smaller beside it.
 
+- date: 2026-07-23
+  text: "Congratulations to Zihan, who received a Pilot Grant from the NYU Center for Brain Imaging to support his new fMRI study."
+
+- date: 2026-05-26
+  text: "Welcoming our new postdoc Chong, and saying goodbye to Nikita, who is starting his PhD at UC Berkeley, and Brian, who is taking on a lab manager position at Yale."
+  image: images/sourmouse-2.jpg
+
+- date: 2026-03-01
+  text: "Congratulations to Zihan, who was awarded the [NYU Deans' Conference Fund](https://gsas.nyu.edu/profdev/fellowships/dean-student-travel-grant-program.html), a program that helps graduate students cover the cost of presenting their scholarly work."
+
 - date: 2026-07-06
   text: "Leonard presented his work at the [FENS Forum 2026](https://fensforum.org/) in Barcelona."
   image: images/FENS26_1.png
