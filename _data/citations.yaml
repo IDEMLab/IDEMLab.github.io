@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/305698
+- id: doi:10.1073/pnas.1914180116
   title: Directional coupling of slow and fast hippocampal gamma with neocortical
     alpha/beta oscillations in human episodic memory
   authors:
@@ -13,7 +13,7 @@
   - '...'
   publisher: Proceedings of the National Academy of Sciences 116 (43), 21834-21842,
     2019
-  date: '2019'
+  date: '2019-10-22'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ufrVoPGSRksC
   sort_date: '2019'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -32,20 +32,6 @@
   publisher: Elife 5, e17397, 2016
   date: '2016-08-10'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:u5HHmVD_uO8C
-  sort_date: '2016'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1371/journal.pbio.1002528
-  title: 'The temporal signature of memories: identification of a general mechanism
-    for dynamic memory replay in humans'
-  authors:
-  - S Michelmann
-  - H Bowman
-  - S Hanslmayr
-  publisher: PLoS biology 14 (8), e1002528, 2016
-  date: '2016-08-05'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:u-x6o8ySG0sC
   sort_date: '2016'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
@@ -83,23 +69,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1073/pnas.2114171118
-  title: The hippocampus as the switchboard between perception and memory
-  authors:
-  - MS Treder
-  - I Charest
-  - S Michelmann
-  - "MC Mart\xEDn-Buro"
-  - F Roux
-  - '...'
-  publisher: Proceedings of the National Academy of Sciences 118 (50), e2114171118,
-    2021
-  date: '2021-12-14'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:UebtZRa9Y70C
-  sort_date: '2021'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1038/s41467-021-25376-y
   title: Moment-by-moment tracking of naturalistic learning and its underlying hippocampo-cortical
     interactions
@@ -126,7 +95,7 @@
   - IR Olson
   - NS Newcombe
   publisher: Memory & Cognition, 1-13, 2020
-  date: '2026-07-24'
+  date: '2026-08-29'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
   sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -142,20 +111,6 @@
   date: '2023-01-03'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:_kc_bZDykSQC
   sort_date: '2023'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.3758/s13428-024-02569-z
-  title: Large language models can segment narrative events similarly to humans
-  authors:
-  - S Michelmann
-  - M Kumar
-  - KA Norman
-  - M Toneva
-  publisher: Behavior Research Methods 57 (1), 39, 2025
-  date: '2025-01-03'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:4TOpqqG69KYC
-  sort_date: '2025'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -175,7 +130,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1162/jocn_a_01304
+- id: doi:10.1101/236059
   title: Replay of Stimulus-specific Temporal Patterns during Associative Memory Formation
   authors:
   - S Michelmann
@@ -185,6 +140,24 @@
   date: '2018-07-13'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
   sort_date: '2018'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1101/2022.12.21.521184
+  title: 'Test-retest reliability of the human connectome: An OPM-MEG study'
+  authors:
+  - L Rier
+  - S Michelmann
+  - H Ritz
+  - V Shah
+  - RM Hill
+  - J Osborne
+  - C Doyle
+  - '...'
+  publisher: Imaging Neuroscience 1, 1-20, 2023
+  date: '2023-10-09'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
+  sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -264,24 +237,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.31219/osf.io/sbrg7
-  title: 'RT-Cloud: a cloud-based software framework to simplify and standardize real-time
-    fMRI'
-  authors:
-  - G Wallace
-  - S Polcyn
-  - PP Brooks
-  - AC Mennen
-  - K Zhao
-  - PS Scotti
-  - '...'
-  publisher: NeuroImage 257, 119295, 2022
-  date: '2022-05-14'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:MXK_kJrjxJIC
-  sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1007/978-3-031-20910-9_28
   title: How Should I Re-reference My Intracranial EEG Data?
   authors:
@@ -310,22 +265,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1016/j.actpsy.2024.104240
-  title: Post-hypnotic suggestion improves confidence and speed of memory access with
-    long-lasting effects
-  authors:
-  - B Schmidt
-  - "J B\xF6hmer"
-  - M Schnuerch
-  - T Koch
-  - S Michelmann
-  publisher: Acta Psychologica 245, 104240, 2024
-  date: '2024-04-02'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:aqlVkmm33-oC
-  sort_date: '2024'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1016/j.neuropsychologia.2021.107867
   title: 'The Sync-Fire/deSync model: Modelling the reactivation of dynamic memories
     from cortical alpha oscillations'
@@ -338,24 +277,6 @@
   date: '2021-04-24'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:0EnyYjriUFMC
   sort_date: '2021'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1145/3520304.3528883
-  title: Assessing Episodic Memory in LLMs with Sequence Order Recall Tasks
-  authors:
-  - M Pink
-  - VA Vo
-  - Q Wu
-  - J Mu
-  - JS Turek
-  - U Hasson
-  - KA Norman
-  - '...'
-  publisher: arXiv preprint arXiv:2410.08133, 2024
-  date: '2022-07-09'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:Wp0gIr-vW9MC
-  sort_date: '2024'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -374,23 +295,6 @@
   date: '2022-09-29'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:3fE2CSJIrl8C
   sort_date: '2022'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.1101/2025.02.11.637471
-  title: Fast-timescale hippocampal processes bridge between slowly unfurling neocortical
-    states during memory search
-  authors:
-  - S Michelmann
-  - P Dugan
-  - W Doyle
-  - D Friedman
-  - L Melloni
-  - CK Strauss
-  - '...'
-  publisher: bioRxiv, 2025
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:QIV2ME_5wuYC
-  sort_date: Preprints
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -435,33 +339,22 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1162/imag.a.1218
-  title: Reliability and signal comparison of OPM-MEG, fMRI & iEEG in a repeated movie
-    viewing paradigm
+- id: doi:10.1037/e537102012-593
+  title: Temporal Context Reinstatement Drives Episodic-Like Order Memory in Long-Context
+    Language Models
   authors:
-  - OR Christiano
-  - S Michelmann
-  publisher: Imaging Neuroscience 4, IMAG.a.1218, 2026
-  date: '2026-05-08'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ZeXyd9-uunAC
-  sort_date: '2026'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.31234/osf.io/qd2ra
-  title: Event Segmentation In Story Listening Using Deep Language Models
-  authors:
-  - M Kumar
-  - A Goldstein
-  - S Michelmann
-  - JM Zacks
-  - K Norman
+  - M Pink
+  - VA Vo
+  - Q Wu
+  - J Mu
+  - JS Turek
   - U Hasson
-  publisher: Proceedings of the Annual Meeting of the Cognitive Science Society 44
-    (44), 2022
-  date: '2022'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:KlAtU1dfN6UC
-  sort_date: '2022'
+  - KA Norman
+  - '...'
+  publisher: Forty-third International Conference on Machine Learning, 2026
+  date: '2026'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mB3voiENLucC
+  sort_date: '2026'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
