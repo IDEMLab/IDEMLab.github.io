@@ -19,6 +19,23 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.7554/elife.17397
+  title: Hippocampal pattern completion is linked to gamma power increases and alpha
+    power decreases during recollection
+  authors:
+  - BP Staresina
+  - S Michelmann
+  - M Bonnefond
+  - O Jensen
+  - N Axmacher
+  - J Fell
+  publisher: Elife 5, e17397, 2016
+  date: '2016-08-10'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:u5HHmVD_uO8C
+  sort_date: '2016'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1371/journal.pbio.1002528
   title: 'The temporal signature of memories: identification of a general mechanism
     for dynamic memory replay in humans'
@@ -101,6 +118,20 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.31219/osf.io/k9hnf
+  title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
+  authors:
+  - CT Ngo
+  - S Michelmann
+  - IR Olson
+  - NS Newcombe
+  publisher: Memory & Cognition, 1-13, 2020
+  date: '2026-08-21'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
+  sort_date: '2020'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1016/j.jneumeth.2018.06.021
   title: Data-driven re-referencing of intracranial EEG based on independent component
     analysis (ICA)
@@ -116,20 +147,6 @@
   date: '2018-06-28'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:zYLM7Y9cAGgC
   sort_date: '2018'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: doi:10.31219/osf.io/k9hnf
-  title: 'Pattern separation and pattern completion: Behaviorally separable processes?'
-  authors:
-  - CT Ngo
-  - S Michelmann
-  - IR Olson
-  - NS Newcombe
-  publisher: Memory & Cognition, 1-13, 2020
-  date: '2026-08-04'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:roLk4NBRz8UC
-  sort_date: '2020'
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
@@ -176,6 +193,19 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1162/jocn_a_01304
+  title: Replay of Stimulus-specific Temporal Patterns during Associative Memory Formation
+  authors:
+  - S Michelmann
+  - H Bowman
+  - S Hanslmayr
+  publisher: Journal of cognitive neuroscience 30 (11), 1577-1589, 2018
+  date: '2018-07-13'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:2osOgNQ5qMEC
+  sort_date: '2018'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1101/2022.12.21.521184
   title: 'Test-retest reliability of the human connectome: An OPM-MEG study'
   authors:
@@ -188,7 +218,7 @@
   - C Doyle
   - '...'
   publisher: Imaging Neuroscience 1, 1-20, 2023
-  date: '2023'
+  date: '2023-10-09'
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:YOwf2qJgpHMC
   sort_date: '2023'
   gsid: ZKnNXjYAAAAJ&hl=en
@@ -270,7 +300,7 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.31219/osf.io/sbrg7
+- id: doi:10.1016/j.neuroimage.2022.119295
   title: 'RT-Cloud: a cloud-based software framework to simplify and standardize real-time
     fMRI'
   authors:
@@ -383,6 +413,20 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
+- id: doi:10.1101/2025.04.22.649929
+  title: Hippocampal ripples initiate cortical dimensionality expansion for memory
+    retrieval
+  authors:
+  - "C Kerr\xE9n"
+  - S Michelmann
+  - CF Doeller
+  publisher: Nature Communications 17 (1), 6677, 2026
+  date: '2026-07-20'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
+  sort_date: '2026'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
 - id: doi:10.1101/2025.02.11.637471
   title: Fast-timescale hippocampal processes bridge between slowly unfurling neocortical
     states during memory search
@@ -400,20 +444,6 @@
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
   file: google-scholar.yaml
-- id: doi:10.1101/2025.04.22.649929
-  title: Hippocampal ripples initiate cortical dimensionality expansion for memory
-    retrieval
-  authors:
-  - "C Kerr\xE9n"
-  - S Michelmann
-  - CF Doeller
-  publisher: Nature Communications 17 (1), 6677, 2026
-  date: '2026-07-20'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:L8Ckcad2t8MC
-  sort_date: '2026'
-  gsid: ZKnNXjYAAAAJ&hl=en
-  plugin: google-scholar.py
-  file: google-scholar.yaml
 - id: doi:10.1101/2025.09.01.673485
   title: Canonical Representational Mapping for Cognitive Neuroscience
   authors:
@@ -421,6 +451,82 @@
   - S Michelmann
   publisher: bioRxiv, 2025.09. 01.673485, 2025
   link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:hC7cP41nSMkC
+  sort_date: Preprints
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.64898/2026.01.18.700222
+  title: Phase similarity between similar objects indicates representational merging
+    across retrieval training but not sleep
+  authors:
+  - HB Caldwell
+  - A Chatburn
+  - K Lushington
+  - S Hanslmayr
+  - S Michelmann
+  publisher: Imaging Neuroscience 4, IMAG.a.1321, 2026
+  date: '2026'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:TQgYirikUcIC
+  sort_date: '2026'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1037/e537102012-593
+  title: Temporal Context Reinstatement Drives Episodic-Like Order Memory in Long-Context
+    Language Models
+  authors:
+  - M Pink
+  - VA Vo
+  - Q Wu
+  - J Mu
+  - JS Turek
+  - U Hasson
+  - KA Norman
+  - '...'
+  publisher: Forty-third International Conference on Machine Learning, 2026
+  date: '2026'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:mB3voiENLucC
+  sort_date: '2026'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1162/imag.a.1218
+  title: Reliability and signal comparison of OPM-MEG, fMRI & iEEG in a repeated movie
+    viewing paradigm
+  authors:
+  - OR Christiano
+  - S Michelmann
+  publisher: Imaging Neuroscience 4, IMAG.a.1218, 2026
+  date: '2026-05-08'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:ZeXyd9-uunAC
+  sort_date: '2026'
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.64898/2026.08.26.746101
+  title: Episodic memory rescues working memory via pattern separation, pattern completion,
+    and predictive recall
+  authors:
+  - Z Bai
+  - D Fougnie
+  - S Michelmann
+  publisher: bioRxiv, 2026.08. 26.746101, 2026
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:R3hNpaxXUhUC
+  sort_date: Preprints
+  gsid: ZKnNXjYAAAAJ&hl=en
+  plugin: google-scholar.py
+  file: google-scholar.yaml
+- id: doi:10.1101/2025.07.17.665290
+  title: 'Perspective matters: using past experiences to understand others'' insensitivity
+    to physical pain.'
+  authors:
+  - F Meconi
+  - M Canducci
+  - S Michelmann
+  - A Grecucci
+  - I Sperandio
+  publisher: bioRxiv, 2025.07. 17.665290, 2025
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZKnNXjYAAAAJ&pagesize=100&citation_for_view=ZKnNXjYAAAAJ:IWHjjKOFINEC
   sort_date: Preprints
   gsid: ZKnNXjYAAAAJ&hl=en
   plugin: google-scholar.py
