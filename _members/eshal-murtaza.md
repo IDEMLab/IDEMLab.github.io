@@ -2,7 +2,7 @@
 name: Eshal Murtaza
 image: /images/eshal-murtaza.jpg
 role: labmanager
-description: MEG Lab Manager
+description: MEG Lab Manager, Undergraduate Research Assistant
 links:
   email: em5314@nyu.edu
 ---
